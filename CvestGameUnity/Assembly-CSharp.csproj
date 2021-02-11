@@ -64,12 +64,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Animation_Control.cs" />
-    <Compile Include="Assets\Scripts\AutoConnect.cs" />
-    <Compile Include="Assets\Scripts\MatchMaking.cs" />
-    <Compile Include="Assets\Scripts\Player_Lobby.cs" />
-    <Compile Include="Assets\Scripts\Text_Spawn.cs" />
-    <Compile Include="Assets\Scripts\UILobby.cs" />
+    <Compile Include="Assets\Cvests\Cvest1EscapePrison\Toilet\Scripts\Text_Spawn.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Scripts\Animation_Control.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\MainMenu\AutoConnect.cs" />
+    <Compile Include="Assets\MainMenu\MatchMaking.cs" />
+    <Compile Include="Assets\MainMenu\Player_Lobby.cs" />
+    <Compile Include="Assets\MainMenu\UILobby.cs" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\Characters\CesureGuard\ProgramFiles\empty.txt" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\Ventilation\programFiles\empty.txt" />
     <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
