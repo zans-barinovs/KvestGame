@@ -18,31 +18,31 @@ using Mirror;
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
-                CurrentAnimation.SetBool("isRunning", true);
+                CurrentAnimation.SetBool("IsRunning", true);
             }
             else
             {
-                CurrentAnimation.SetBool("isRunning", false);
+                CurrentAnimation.SetBool("IsRunning", false);
             }
             if (Input.GetKey(KeyCode.W))
             {
-                CurrentAnimation.SetBool("isWalking", true);
+                CurrentAnimation.SetBool("IsWalking", true);
             }
             else if(Input.GetKey(KeyCode.S))
             {
-                CurrentAnimation.SetBool("isWalking", true);
+                CurrentAnimation.SetBool("IsWalking", true);
             }
             else if (Input.GetKey(KeyCode.A))
             {
-                CurrentAnimation.SetBool("isWalking", true);
+                CurrentAnimation.SetBool("IsWalking", true);
             }
             else if (Input.GetKey(KeyCode.D))
             {
-                CurrentAnimation.SetBool("isWalking", true);
+                CurrentAnimation.SetBool("IsWalking", true);
             }
             else
             {
-                CurrentAnimation.SetBool("isWalking", false);
+                CurrentAnimation.SetBool("IsWalking", false);
             }
 
         }
