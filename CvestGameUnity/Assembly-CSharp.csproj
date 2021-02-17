@@ -82,7 +82,6 @@
      <None Include="Assets\Mirror\Plugins\Mono.Cecil\License.txt" />
      <None Include="Assets\Cvests\Cvest1EscapePrison\Characters\CesureGuard\Scripts\empty.txt" />
      <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
-     <None Include="Assets\Cvests\Cvest1EscapePrison\Map\3dModelsAnimations\empty.txt" />
      <None Include="Assets\Cvests\Cvest1EscapePrison\Wrench\Scripts\empty.txt" />
      <None Include="Assets\ScriptTemplates\50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
      <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
