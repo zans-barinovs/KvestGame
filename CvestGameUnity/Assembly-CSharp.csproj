@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Cvests\Cvest1EscapePrison\Toilet\Scripts\Text_Spawn.cs" />
+     <Compile Include="Assets\Cvests\Cvest1EscapePrison\Ventilation\Scripts\VentilationEnterScript.cs" />
      <Compile Include="Assets\MainCharacters\FirstMainCharacter\Scripts\Animation_Control.cs" />
      <Compile Include="Assets\MainCharacters\FirstMainCharacter\Scripts\PlayerController.cs" />
      <Compile Include="Assets\MainMenu\AutoConnect.cs" />
