@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class ScriptForEnterIntoVentilationButton : MonoBehaviour
 {
+    public delegate void ClimbIntoVentiltionButtonUnClick();
+    public static event ClimbIntoVentiltionButtonUnClick ClimbIntoVentiltionButtonUnClickEvent;
+
+
     public GameObject ThisObject;
 
     private float WaitForEventTime = 2.0f;
@@ -24,6 +28,15 @@ public class ScriptForEnterIntoVentilationButton : MonoBehaviour
         if (TimerForEventTime > WaitForEventTime)
         {
             ThisObject.SetActive(false);
+        }
+
+        
+    }
+
+    void OnMouseDown()
+    {
+        if (ThisObject.active){
+            ClimbIntoVentiltionButtonUnClickEvent?.Invoke();
         }
     }
 
