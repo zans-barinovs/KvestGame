@@ -26,28 +26,17 @@ public class VentilationEnterScript : MonoBehaviour
         MainCharacter = GameObject.FindWithTag("FirstMainCharacter");
 
         EnterPlacePointTransform = EnterPlacePoint.GetComponent<Transform>();
-        MainCharacterTransform = MainCharacter.GetComponent<Transform>();
     }
 
     void Update()
     {
-        Debug.Log("Update");
         EnterPlacePointTransform = EnterPlacePoint.GetComponent<Transform>();
-        Debug.Log("Update0");
         MainCharacterTransform = GameObject.FindWithTag("FirstMainCharacter").transform;
-
-        Debug.Log("Update1");
 
         EnterPlacePointVector3 = new Vector3(EnterPlacePointTransform.position.x, EnterPlacePointTransform.position.y, EnterPlacePointTransform.position.z);
         MainCharacterVector3 = new Vector3(MainCharacterTransform.position.x, MainCharacterTransform.position.y, MainCharacterTransform.position.z);
 
-        Debug.Log("Update2");
-
         DistanceToCharacter = Vector3.Distance(EnterPlacePointVector3, MainCharacterVector3);
-        Debug.Log("EnterPlacePointVector3: " + EnterPlacePointVector3);
-        Debug.Log("MainCharacterVector3: " + MainCharacterVector3);
-
-        Debug.Log("Update3");
 
         if (DistanceToCharacter < MaxWorkingDistanceToCharecter) {
             CharecterIsNear = true;
@@ -58,7 +47,5 @@ public class VentilationEnterScript : MonoBehaviour
         {
             CharecterIsNear = false;
         }
-
-        Debug.Log("Update4");
     }
 }

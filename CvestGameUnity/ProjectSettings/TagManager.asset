@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - FirstMainCharacter
+  - ClimbIntoVentiltionButton
   layers:
   - Default
   - TransparentFX
