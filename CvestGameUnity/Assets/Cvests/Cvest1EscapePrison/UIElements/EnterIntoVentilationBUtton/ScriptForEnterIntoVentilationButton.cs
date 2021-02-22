@@ -54,8 +54,6 @@ public class ScriptForEnterIntoVentilationButton : MonoBehaviour
 
         if (Physics.Raycast(RayFromMouse, out RayFromMouseHitedObjects))
         {
-            Debug.Log(RayFromMouseHitedObjects.transform.position.ToString());
-            Debug.Log(ButtonPresed);
             if(ButtonPresed && RayFromMouseHitedObjects.transform.position.ToString() == new Vector3(0.0f, 2.6f, 0.7f).ToString())
             {
                 ClimbIntoVentiltionButtonOnClickEvent?.Invoke();
@@ -63,14 +61,6 @@ public class ScriptForEnterIntoVentilationButton : MonoBehaviour
             }
         }
         
-    }
-
-    void OnMouseDown()
-    {
-        if (ThisObject.active){
-            ClimbIntoVentiltionButtonOnClickEvent?.Invoke();
-            Debug.Log("ClimbIntoVentiltionButtonOnClickEvent");
-        }
     }
 
     void WhenCharecterNearVentilationEnterSegment()
