@@ -300,7 +300,7 @@
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/Unity/TeaMate_Games/CvestGameUnity/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>D:/Unity/TeaMates/CvestGameUnity/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Unity\2019.4.14f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -650,6 +650,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Cvests\Cvest1EscapePrison\Toilet\Scripts\Text_Spawn.cs" />
+    <Compile Include="Assets\Cvests\Cvest1EscapePrison\UIElements\EnterIntoVentilationBUtton\ScriptForEnterIntoVentilationButton.cs" />
+    <Compile Include="Assets\Cvests\Cvest1EscapePrison\Ventilation\Scripts\VentilationEnterScript.cs" />
     <Compile Include="Assets\MainCharacters\FirstMainCharacter\Scripts\Animation_Control.cs" />
     <Compile Include="Assets\MainCharacters\FirstMainCharacter\Scripts\PlayerController.cs" />
     <Compile Include="Assets\MainMenu\AutoConnect.cs" />
@@ -662,13 +664,11 @@
     <None Include="Assets\Cvests\Cvest1EscapePrison\Characters\CesureGuard\ProgramFiles\empty.txt" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\Characters\CesureGuard\Scripts\empty.txt" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\MainSubject.txt" />
-    <None Include="Assets\Cvests\Cvest1EscapePrison\Map\3dModelsAnimations\empty.txt" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\Map\ProgramFiles\empty.txt" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\Map\Scripts\empty.txt" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\Toilet\3dModelsAnimations\empty.txt" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\Toilet\ProgramFiles\empty.txt" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\Toilet\Scripts\empty.txt" />
-    <None Include="Assets\Cvests\Cvest1EscapePrison\Ventilation\3dModelsAnimations\empty.txt" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\Ventilation\Scripts\empty.txt" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\Ventilation\programFiles\empty.txt" />
     <None Include="Assets\Cvests\Cvest1EscapePrison\Wrench\Scripts\empty.txt" />
