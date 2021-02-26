@@ -10,7 +10,7 @@ public class ScriptForEnterIntoVentilationButton : MonoBehaviour
 
     public GameObject ThisObject;
 
-    private float WaitForEventTime = 1.0f;
+    private float WaitForEventTime = 0.5f;
     private float TimerForEventTime = 0.0f;
 
     private float MaxPresedButtonTime = 0.1f;
