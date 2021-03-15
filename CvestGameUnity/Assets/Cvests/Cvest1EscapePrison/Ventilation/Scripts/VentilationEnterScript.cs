@@ -40,7 +40,7 @@ public class VentilationEnterScript : MonoBehaviour
 
         if (DistanceToCharacter < MaxWorkingDistanceToCharecter) {
             CharecterIsNear = true;
-            Debug.Log("CharecterIsNear = true");
+            //Debug.Log("CharecterIsNear = true");
             CharecterNearVentilationEnterSegment?.Invoke();
         }
         else
