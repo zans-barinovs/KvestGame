@@ -16,7 +16,12 @@ public class ScriptForEnterIntoVentilationButton : MonoBehaviour
     private float MaxPresedButtonTime = 0.1f;
     private float TimerForMaxPresedButtonTime = 0.0f;
 
+    private float PupUpTime = 0.15f;
+    private float TimerForPupUpTime = 0.0f;
+
     private bool ButtonPresed; 
+
+    private Animator CurrentAnimation;
 
     Ray RayFromMouse;
     RaycastHit RayFromMouseHitedObjects;
@@ -24,8 +29,9 @@ public class ScriptForEnterIntoVentilationButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        CurrentAnimation = GetComponent<Animator>();
+
         VentilationEnterScript.CharecterNearVentilationEnterSegment += WhenCharecterNearVentilationEnterSegment;
-        ThisObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -33,9 +39,12 @@ public class ScriptForEnterIntoVentilationButton : MonoBehaviour
     {
         TimerForEventTime += Time.deltaTime;
         TimerForMaxPresedButtonTime += Time.deltaTime;
+        TimerForPupUpTime += Time.deltaTime;
 
         if (TimerForEventTime > WaitForEventTime)
         {
+            CurrentAnimation.SetBool("PupOutAnimationSarts",true);
+            TimerForPupUpTime = 0.0f;
             ThisObject.SetActive(false);
         }
 
@@ -60,12 +69,27 @@ public class ScriptForEnterIntoVentilationButton : MonoBehaviour
                 Debug.Log("ClimbIntoVentiltionButtonOnClickEvent");
             }
         }
+
         
+        // CurrentAnimation.SetBool("PupUpAnimationStarts", false);
+        // CurrentAnimation.SetBool("PupUpAnimationFinished", false);
     }
 
     void WhenCharecterNearVentilationEnterSegment()
     {
-        ThisObject.SetActive(true);
-        TimerForEventTime = 0.0f;
+        if(TimerForEventTime>=WaitForEventTime)
+        {
+            Debug.Log("a");
+            CurrentAnimation.SetBool("PupUpAnimationStarts", true);
+            Debug.Log("anim");
+            TimerForEventTime = 0.0f;
+            TimerForPupUpTime = 0.0f;
+        }
+
+        if (TimerForPupUpTime>PupUpTime)
+        {
+            CurrentAnimation.SetBool("PupUpAnimationFinished", true);
+            TimerForPupUpTime = 0.0f;
+        }
     }
 }

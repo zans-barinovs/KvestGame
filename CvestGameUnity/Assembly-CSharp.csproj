@@ -64,6 +64,7 @@
      <Compile Include="Assets\MainMenu\MatchMaking.cs" />
      <Compile Include="Assets\MainMenu\Player_Lobby.cs" />
      <Compile Include="Assets\MainMenu\UILobby.cs" />
+     <Compile Include="Assets\test.cs" />
      <None Include="Assets\Cvests\Cvest1EscapePrison\Toilet\ProgramFiles\empty.txt" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\ScriptTemplates\53-Mirror__Network Observer-NewNetworkObserver.cs.txt" />
