@@ -80,6 +80,7 @@ namespace Mirror.Examples.Additive
                 turn = Mathf.MoveTowards(turn, 0, turnSensitivity);
             if (!Input.GetKey(KeyCode.Q) && !Input.GetKey(KeyCode.E))
                 turn = Mathf.MoveTowards(turn, 0, turnSensitivity);
+            
         }
 
         void FixedUpdate()
