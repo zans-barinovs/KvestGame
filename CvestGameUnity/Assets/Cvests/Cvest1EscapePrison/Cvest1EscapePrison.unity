@@ -845,29 +845,29 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
-    m_TransformParent: {fileID: 1160674503}
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c8b48fbd7691b24f8b13f444f8dac77,
-    m_TransformParent: {fileID: 1160674503}
+        type: 3}
       propertyPath: m_RootOrder
       value: 16
-      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c8b48fbd7691b24f8b13f444f8dac77,
-      value: 9
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
-      value: -1.877635
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c8b48fbd7691b24f8b13f444f8dac77,
-      value: -1.877635
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
-      value: 2.0017614
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c8b48fbd7691b24f8b13f444f8dac77,
-      value: 2.0017614
-      value: -1.0793952
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      value: -1.0793952
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0c8b48fbd7691b24f8b13f444f8dac77,
-      value: -1.0793952
+        type: 3}
       propertyPath: m_Name
       value: VentilationStreightSegment (8)
       objectReference: {fileID: 0}
@@ -909,10 +909,8 @@ Transform:
   m_LocalPosition: {x: -12.42, y: 20.49, z: 4.667}
   m_LocalScale: {x: 1.2871375, y: 1, z: 2.3413}
   m_Children: []
---- !u!4 &418519044 stripped
   m_Father: {fileID: 1486507391}
   m_RootOrder: 5
---- !u!4 &418519044 stripped
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &300347573
 MeshCollider:
