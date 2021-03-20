@@ -834,32 +834,40 @@ PrefabInstance:
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0c8b48fbd7691b24f8b13f444f8dac77,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
-      objectReference: {fileID: 0}
+    m_TransformParent: {fileID: 1160674503}
     - target: {fileID: -8679921383154817045, guid: 0c8b48fbd7691b24f8b13f444f8dac77,
-        type: 3}
+    m_TransformParent: {fileID: 1160674503}
       propertyPath: m_RootOrder
       value: 16
-      objectReference: {fileID: 0}
+      value: 9
     - target: {fileID: -8679921383154817045, guid: 0c8b48fbd7691b24f8b13f444f8dac77,
-        type: 3}
+      value: 9
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
-      objectReference: {fileID: 0}
+      value: -1.877635
     - target: {fileID: -8679921383154817045, guid: 0c8b48fbd7691b24f8b13f444f8dac77,
-        type: 3}
+      value: -1.877635
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
-      objectReference: {fileID: 0}
+      value: 2.0017614
     - target: {fileID: -8679921383154817045, guid: 0c8b48fbd7691b24f8b13f444f8dac77,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.0017614
+      value: -1.0793952
       value: 0
-      objectReference: {fileID: 0}
+      value: -1.0793952
     - target: {fileID: 919132149155446097, guid: 0c8b48fbd7691b24f8b13f444f8dac77,
-        type: 3}
+      value: -1.0793952
       propertyPath: m_Name
       value: VentilationStreightSegment (8)
       objectReference: {fileID: 0}
@@ -901,8 +909,10 @@ Transform:
   m_LocalPosition: {x: -12.42, y: 20.49, z: 4.667}
   m_LocalScale: {x: 1.2871375, y: 1, z: 2.3413}
   m_Children: []
+--- !u!4 &418519044 stripped
   m_Father: {fileID: 1486507391}
   m_RootOrder: 5
+--- !u!4 &418519044 stripped
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &300347573
 MeshCollider:
