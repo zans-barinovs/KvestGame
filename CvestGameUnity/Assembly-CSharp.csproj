@@ -55,7 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cvests\Cvest1EscapePrison\Light\BiasSet.cs" />
      <Compile Include="Assets\Cvests\Cvest1EscapePrison\Toilet\Scripts\Text_Spawn.cs" />
      <Compile Include="Assets\Cvests\Cvest1EscapePrison\UIElements\EnterIntoVentilationBUtton\ScriptForEnterIntoVentilationButton.cs" />
      <Compile Include="Assets\Cvests\Cvest1EscapePrison\Ventilation\Scripts\VentilationEnterScript.cs" />

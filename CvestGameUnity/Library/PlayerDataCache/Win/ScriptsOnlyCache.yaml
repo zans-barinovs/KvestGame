@@ -3,13 +3,14 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Animation_Control
     - AutoConnect
-    - Mirror.Examples.Additive.PlayerController
-    - ScriptForEnterIntoVentilationButton
     - Text_Spawn
     - UILobby
-    - VentilationEnterScript
     Mirror.Components.dll:
     - Mirror.NetworkTransform
+    Mirror.Editor.dll:
+    - Mirror.NetworkBehaviourInspector
+    Mirror.Examples.dll:
+    - Mirror.Examples.Additive.PlayerController
     Mirror.dll:
     - Mirror.NetworkIdentity
     - Mirror.NetworkManager
@@ -20,6 +21,14 @@ ScriptsOnlyBuild:
     - Mirror.SimpleWeb.SimpleWebTransport
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -34,7 +43,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity:
+    Assets/Scenes/Game.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -55,8 +64,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
-    - Class: 61
-      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -76,40 +83,38 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11244}
     - Class: 114
-      Script: {instanceID: 11278}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11440}
     - Class: 114
-      Script: {instanceID: 11448}
+      Script: {instanceID: 11466}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 11478}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 12374}
     - Class: 114
-      Script: {instanceID: 12382}
+      Script: {instanceID: 13070}
     - Class: 114
-      Script: {instanceID: 12908}
+      Script: {instanceID: 13132}
     - Class: 114
-      Script: {instanceID: 13080}
+      Script: {instanceID: 13310}
     - Class: 114
-      Script: {instanceID: 13142}
+      Script: {instanceID: 13540}
     - Class: 114
-      Script: {instanceID: 13320}
+      Script: {instanceID: 13622}
     - Class: 114
-      Script: {instanceID: 13532}
-    - Class: 114
-      Script: {instanceID: 13552}
-    - Class: 114
-      Script: {instanceID: 13634}
+      Script: {instanceID: 32338}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
@@ -117,17 +122,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/MainMenu/Lobby.unity:
+    Assets/Scenes/Lobby.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -151,19 +152,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11244}
     - Class: 114
-      Script: {instanceID: 11278}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11536}
+      Script: {instanceID: 11528}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 12204}
+      Script: {instanceID: 12196}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 12714}
     - Class: 114
-      Script: {instanceID: 13080}
+      Script: {instanceID: 13070}
     - Class: 114
-      Script: {instanceID: 13552}
+      Script: {instanceID: 13540}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -180,7 +181,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/MainMenu/Offline.unity:
+    Assets/Scenes/Offline.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -190,6 +191,8 @@ ScriptsOnlyBuild:
     - Class: 21
       Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -212,36 +215,38 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11244}
     - Class: 114
-      Script: {instanceID: 11278}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11440}
     - Class: 114
-      Script: {instanceID: 11448}
+      Script: {instanceID: 11466}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 11528}
     - Class: 114
-      Script: {instanceID: 11536}
+      Script: {instanceID: 11930}
     - Class: 114
-      Script: {instanceID: 11938}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 12050}
     - Class: 114
-      Script: {instanceID: 12058}
+      Script: {instanceID: 13070}
     - Class: 114
-      Script: {instanceID: 13080}
+      Script: {instanceID: 13132}
     - Class: 114
-      Script: {instanceID: 13142}
+      Script: {instanceID: 13310}
     - Class: 114
-      Script: {instanceID: 13320}
+      Script: {instanceID: 13540}
     - Class: 114
-      Script: {instanceID: 13552}
+      Script: {instanceID: 13622}
     - Class: 114
-      Script: {instanceID: 13634}
+      Script: {instanceID: 32338}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
@@ -322,12 +327,6 @@ ScriptsOnlyBuild:
     className: NetworkManagerHUD
   - hash:
       serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Animation_Control
-  - hash:
-      serializedVersion: 2
       Hash: 192ca9716d03752ea1d90a78bc2daac9
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.NetworkRoom
@@ -365,7 +364,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: b18f0d55b218ff8d17c2c7411b02c1bf
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.Additive
     className: PlayerController
   - hash:
@@ -946,12 +945,6 @@ ScriptsOnlyBuild:
     className: ServerListUIItem
   - hash:
       serializedVersion: 2
-      Hash: 2bbd2d182a9a629ce347571c1291d7c7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScriptForEnterIntoVentilationButton
-  - hash:
-      serializedVersion: 2
       Hash: ba659f74adb918d2b465bb89cbb55fae
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.Pong
@@ -1174,12 +1167,6 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 081a12b81f64d6742fe041586fdc764d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: VentilationEnterScript
-  - hash:
-      serializedVersion: 2
       Hash: e4fb2671f4e7782c0481d74d32ad6df2
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.Tanks
@@ -1244,9 +1231,15 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: kcp2k
     className: KcpTransport
+  - hash:
+      serializedVersion: 2
+      Hash: bf47353b090f11ed5ff918ae2bf4f8d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Animation_Control
   platform: 5
   scenePathNames:
-  - Assets/MainMenu/Offline.unity
-  - Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
-  - Assets/MainMenu/Lobby.unity
-  playerPath: C:/Users/zansb/Desktop/CvestGameUnity.exe
+  - Assets/Scenes/Offline.unity
+  - Assets/Scenes/Lobby.unity
+  - Assets/Scenes/Game.unity
+  playerPath: D:/Unity/CvestGameUnity.exe
