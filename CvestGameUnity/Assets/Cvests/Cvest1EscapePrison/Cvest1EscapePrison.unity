@@ -1802,6 +1802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 559593241}
   - component: {fileID: 559593242}
+  - component: {fileID: 559593243}
   m_Layer: 0
   m_Name: LeftGreenLight
   m_TagString: Untagged
@@ -1884,6 +1885,18 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &559593243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559593240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7658e9978b7d0243919f3cbc1ee60dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &573770394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2610,6 +2623,7 @@ GameObject:
   m_Component:
   - component: {fileID: 938886396}
   - component: {fileID: 938886397}
+  - component: {fileID: 938886398}
   m_Layer: 0
   m_Name: RightOrangeLight
   m_TagString: Untagged
@@ -2692,6 +2706,18 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &938886398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938886395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7658e9978b7d0243919f3cbc1ee60dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &970257117
 GameObject:
   m_ObjectHideFlags: 0
@@ -4003,6 +4029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1538597548}
   - component: {fileID: 1538597549}
+  - component: {fileID: 1538597550}
   m_Layer: 0
   m_Name: CenterWhiteLight
   m_TagString: Untagged
@@ -4046,9 +4073,9 @@ Light:
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_Bias: 0
+    m_NormalBias: 0
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -4085,6 +4112,18 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1538597550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538597547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7658e9978b7d0243919f3cbc1ee60dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1542057746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5249,6 +5288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1980509415}
   - component: {fileID: 1980509416}
+  - component: {fileID: 1980509417}
   m_Layer: 0
   m_Name: SecureGuardLight
   m_TagString: Untagged
@@ -5331,6 +5371,18 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1980509417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980509414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7658e9978b7d0243919f3cbc1ee60dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2024372520
 GameObject:
   m_ObjectHideFlags: 0
