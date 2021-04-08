@@ -21,6 +21,8 @@ public class CharacterNearToiletScript : MonoBehaviour
     private Vector3 EnterPlacePointVector3;
     private Vector3 MainCharacterVector3;
 
+    private int UpdateCounter;
+
     void Start()
     {
         MainCharacter = GameObject.FindWithTag("FirstMainCharacter");
@@ -30,23 +32,29 @@ public class CharacterNearToiletScript : MonoBehaviour
 
     void Update()
     {
-        EnterPlacePointTransform = EnterPlacePoint.GetComponent<Transform>();
-        MainCharacterTransform = GameObject.FindWithTag("FirstMainCharacter").transform;
-
-        EnterPlacePointVector3 = new Vector3(EnterPlacePointTransform.position.x, EnterPlacePointTransform.position.y, EnterPlacePointTransform.position.z);
-        MainCharacterVector3 = new Vector3(MainCharacterTransform.position.x, MainCharacterTransform.position.y, MainCharacterTransform.position.z);
-
-        DistanceToCharacter = Vector3.Distance(EnterPlacePointVector3, MainCharacterVector3);
-
-        if (DistanceToCharacter < MaxWorkingDistanceToCharecter)
+        if ((int)UpdateCounter>(int)3)
         {
-            CharecterIsNear = true;
-            //Debug.Log("CharecterIsNear = true");
-            CharecterNearToiletEvent?.Invoke();
+            EnterPlacePointTransform = EnterPlacePoint.GetComponent<Transform>();
+            MainCharacterTransform = GameObject.FindWithTag("FirstMainCharacter").transform;
+
+            EnterPlacePointVector3 = new Vector3(EnterPlacePointTransform.position.x, EnterPlacePointTransform.position.y, EnterPlacePointTransform.position.z);
+            MainCharacterVector3 = new Vector3(MainCharacterTransform.position.x, MainCharacterTransform.position.y, MainCharacterTransform.position.z);
+
+            DistanceToCharacter = Vector3.Distance(EnterPlacePointVector3, MainCharacterVector3);
+
+            if (DistanceToCharacter < MaxWorkingDistanceToCharecter)
+            {
+                CharecterIsNear = true;
+                //Debug.Log("CharecterIsNear = true");
+                CharecterNearToiletEvent?.Invoke();
+            }
+            else
+            {
+                CharecterIsNear = false;
+            }
         }
-        else
-        {
-            CharecterIsNear = false;
+        else{
+            UpdateCounter++;
         }
     }
 }
