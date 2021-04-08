@@ -24,20 +24,23 @@ namespace Mirror.Examples.Additive
 
         public override void OnStartLocalPlayer()
         {
-            Camera.main.orthographic = false;
-            Camera.main.transform.SetParent(transform);
-            Camera.main.transform.localPosition = new Vector3(0f, 5f, 0f);
-            Camera.main.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
+            //(Сделано для избежания ошибок) - Убирает камеру из дочернего обьекта игрока:
+            Camera.main.transform.parent = null;
+
+            //Camera.main.orthographic = false;
+            //Camera.main.transform.SetParent(transform);
+            //Camera.main.transform.localPosition = new Vector3(0f, 5f, 0f);
+            //Camera.main.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
         }
 
         void OnDisable()
         {
             if (isLocalPlayer && Camera.main != null)
             {
-                Camera.main.orthographic = true;
-                Camera.main.transform.SetParent(null);
-                Camera.main.transform.localPosition = new Vector3(0f, 70f, 0f);
-                Camera.main.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
+                //Camera.main.orthographic = true;
+                //Camera.main.transform.SetParent(null);
+                //Camera.main.transform.localPosition = new Vector3(0f, 70f, 0f);
+                //Camera.main.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
             }
         }
 
