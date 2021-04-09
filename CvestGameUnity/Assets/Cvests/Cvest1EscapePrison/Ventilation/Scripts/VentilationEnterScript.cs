@@ -7,7 +7,7 @@ public class VentilationEnterScript : MonoBehaviour
     public delegate void CharecterNearVentilationEnterSegmentDelegate();
     public static event CharecterNearVentilationEnterSegmentDelegate CharecterNearVentilationEnterSegment;
 
-    private float MaxWorkingDistanceToCharecter = 1.3f; //это расстояние при котором MainCharacterNearVentelation
+    private float MaxWorkingDistanceToCharecter = 1.5f; //это расстояние при котором MainCharacterNearVentelation
 
     private float DistanceToCharacter;
     private bool CharecterIsNear = false;

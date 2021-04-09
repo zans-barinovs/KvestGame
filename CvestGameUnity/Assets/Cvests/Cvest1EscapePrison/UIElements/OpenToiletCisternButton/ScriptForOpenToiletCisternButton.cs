@@ -10,7 +10,7 @@ public class ScriptForOpenToiletCisternButton : MonoBehaviour
 
     public GameObject ThisObject;
 
-    private float WaitForEventTime = 0.5f;
+    private float WaitForEventTime = 0.1f;
     private float TimerForEventTime = 0.0f;
 
     private float MaxPresedButtonTime = 0.1f;
