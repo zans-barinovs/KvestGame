@@ -57,7 +57,7 @@ public class ScriptForOpenToiletCisternButton : MonoBehaviour
             if (ButtonPresed && RayFromMouseHitedObjects.transform.position.ToString() == new Vector3(1.0f, 1.4f, -0.6f).ToString())
             {
                 OpenToiletCisternButtonUnClickEvent?.Invoke();
-                Debug.Log("OpenToiletCisternButtonUnClickEvent");
+                Debug.Log("OpenToiletCisternButtonUnClickEventt");
             }
         }
 
