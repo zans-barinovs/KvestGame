@@ -5,7 +5,7 @@ public class CameraFollow : MonoBehaviour
 {
     [Header("Parameters")]
     [SerializeField] public Transform playerTransform;
-    [SerializeField] private float movingSpeed;
+    [SerializeField] private float movingSpeed = 1;
     [SerializeField] public GameObject player;
 
     private void Awake()

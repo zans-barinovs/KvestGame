@@ -649,12 +649,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Cvests\Cvest1EscapePrison\Light\BiasSet.cs" />
     <Compile Include="Assets\Cvests\Cvest1EscapePrison\Toilet\Scripts\CharacterNearToiletScript.cs" />
     <Compile Include="Assets\Cvests\Cvest1EscapePrison\Toilet\Scripts\Text_Spawn.cs" />
     <Compile Include="Assets\Cvests\Cvest1EscapePrison\UIElements\EnterIntoVentilationBUtton\ScriptForEnterIntoVentilationButton.cs" />
     <Compile Include="Assets\Cvests\Cvest1EscapePrison\UIElements\OpenToiletCisternButton\ScriptForOpenToiletCisternButton.cs" />
     <Compile Include="Assets\Cvests\Cvest1EscapePrison\Ventilation\Scripts\VentilationEnterScript.cs" />
     <Compile Include="Assets\MainCharacters\FirstMainCharacter\Camera\CameraFollow.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\PlayerMovement.cs" />
     <Compile Include="Assets\MainCharacters\FirstMainCharacter\Scripts\Animation_Control.cs" />
     <Compile Include="Assets\MainCharacters\FirstMainCharacter\Scripts\PlayerController.cs" />
     <Compile Include="Assets\MainMenu\AutoConnect.cs" />
