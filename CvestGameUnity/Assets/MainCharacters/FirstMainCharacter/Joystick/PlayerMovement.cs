@@ -21,7 +21,23 @@ public class PlayerMovement : MonoBehaviour
         joystick = GameObject.Find("Fixed Joystick").GetComponent<Joystick>();
         lookJoystick = GameObject.Find("Fixed Joystick").GetComponent<Joystick>();
     }
-
+    public void Walk()
+    {
+        float hoz = joystick.Horizontal;
+        float ver = joystick.Vertical;
+        
+        if (hoz <= 0.7||hoz >= -0.7||ver >= -0.7||ver <= 0.7)
+        {
+            speed = 0.03f;
+            player.GetComponent<Animator>().SetBool("IsWalking", true);
+            player.GetComponent<Animator>().SetBool("IsRunning", false);
+        }
+        if (hoz == 0 && ver == 0)
+        {
+            player.GetComponent<Animator>().SetBool("IsWalking", false);
+            player.GetComponent<Animator>().SetBool("IsRunning", false);
+        }
+    }
     public void FixedUpdate()
     {
         float hoz = joystick.Horizontal;
@@ -32,23 +48,18 @@ public class PlayerMovement : MonoBehaviour
         playMov.Move(direction * speed);
         //transform.Translate(direction * speed * Time.deltaTime, Space.World);
 
-        if (joystick.Horizontal == 0 && ver == 0)
+        
+        if (ver >= 0.7||ver <= -0.7||hoz >= 0.7||hoz <= -0.7)
         {
-            player.GetComponent<Animator>().SetBool("IsWalking", false);
+            speed = 0.05f;
+            player.GetComponent<Animator>().SetBool("IsRunning", true);
         }
-        if (joystick.Horizontal != 0)
+        else
         {
-            player.GetComponent<Animator>().SetBool("IsWalking", true);
-        }
-        if (ver == 0 && joystick.Horizontal == 0)
-        {
-
-        }
-        if (ver != 0)
-        {
-            player.GetComponent<Animator>().SetBool("IsWalking", true);
+            Walk();
         }
         UpdateLookJoystick();
+        Debug.Log(speed);
     }
 
     void UpdateLookJoystick()
