@@ -21,6 +21,6 @@ public class ToiletCoverOpenScript : MonoBehaviour
     private void WhenOpenToiletCisternButtonUnClickEvent()
     {
         Debug.Log("WhenOpenToiletCisternButtonUnClickEvent");
-        ThisObjext.transform.position = new Vector3(0f, 0.5f, 0f);
+        ThisObjext.transform.position = new Vector3(1.64f, 0f, -0.18f);
     }
 }

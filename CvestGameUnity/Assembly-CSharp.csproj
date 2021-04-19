@@ -68,7 +68,6 @@
      <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\MainMenu\Player_Lobby.cs" />
      <Compile Include="Assets\MainMenu\AutoConnect.cs" />
-     <Compile Include="Assets\Cvests\Cvest1EscapePrison\Toilet\Scripts\Text_Spawn.cs" />
      <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\PlayerMovement.cs" />
      <None Include="Assets\Cvests\Cvest1EscapePrison\Toilet\ProgramFiles\empty.txt" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
