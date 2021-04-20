@@ -59,7 +59,7 @@ public class GetItemFromToiletScript : MonoBehaviour
 
         if (Physics.Raycast(RayFromMouse, out RayFromMouseHitedObjects))
         {
-            if (ButtonPresed && RayFromMouseHitedObjects.transform.position.ToString() == new Vector3(1.0f, 1.4f, -0.6f).ToString())
+            if (ButtonPresed && RayFromMouseHitedObjects.transform.position.ToString() == new Vector3(1.2f, 1.4f, -0.23f).ToString())
             {
                 GetItemFrpmToiletCistermnEnet?.Invoke();
                 Debug.Log("GetItemFrpmToiletCistermnEnet");
