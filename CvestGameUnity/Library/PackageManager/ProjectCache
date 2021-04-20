@@ -5,15 +5,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637543575505795668
-    m_Hash: 1153405431
+      ticks: 637544967924747600
+    m_Hash: 2565706288
   m_LockFileStatus:
     m_FilePath: C:/Users/zansb/Documents/programing/games/CvestGame/CvestGameUnity/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637543575626957842
+      ticks: 637544968290417789
     m_Hash: 46301237
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

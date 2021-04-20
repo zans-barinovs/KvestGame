@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
             Walk();
         }
         UpdateLookJoystick();
-        Debug.Log(speed);
+        //Debug.Log(speed);
     }
 
     void UpdateLookJoystick()
