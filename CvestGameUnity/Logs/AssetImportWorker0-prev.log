@@ -15,11 +15,11 @@ C:/Users/zansb/Documents/programing/games/CvestGame/CvestGameUnity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57185
+57286
 Successfully changed project path to: C:/Users/zansb/Documents/programing/games/CvestGame/CvestGameUnity
 C:/Users/zansb/Documents/programing/games/CvestGame/CvestGameUnity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,52 +35,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002063 seconds.
+Registered in 0.001292 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.567 seconds
+- Completed reload, in  1.498 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001781 seconds.
+Registered in 0.001935 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
-Find all reader and writers took 69 milliseconds
+Find all reader and writers took 67 milliseconds
 Script Module: UnityEngine.UI.dll
-Weave behaviours and messages took56 milliseconds
+Weave behaviours and messages took69 milliseconds
 Find all reader and writers took 43 milliseconds
 Script Module: SimpleWebTransport.dll
 Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 65 milliseconds
+Find all reader and writers took 45 milliseconds
 Script Module: UnityEngine.TestRunner.dll
 Weave behaviours and messages took12 milliseconds
-Find all reader and writers took 43 milliseconds
+Find all reader and writers took 57 milliseconds
 Script Module: Assembly-CSharp.dll
 [Animation_Control] NetworkBehaviourProcessor
 [MatchMaking] NetworkBehaviourProcessor
 [Player_Lobby] NetworkBehaviourProcessor
 [PlayerController] NetworkBehaviourProcessor
 Weave behaviours and messages took6 milliseconds
-Find all reader and writers took 41 milliseconds
+Find all reader and writers took 45 milliseconds
 Script Module: Mirror.Cloud.dll
 Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 40 milliseconds
+Find all reader and writers took 46 milliseconds
 Script Module: Unity.Timeline.dll
-Weave behaviours and messages took13 milliseconds
-Find all reader and writers took 44 milliseconds
+Weave behaviours and messages took19 milliseconds
+Find all reader and writers took 45 milliseconds
 Script Module: Mirror.Examples.dll
 [Projectile] NetworkBehaviourProcessor
 [Tank] NetworkBehaviourProcessor
@@ -105,9 +105,9 @@ Script Module: Mirror.Examples.dll
 [Player] NetworkBehaviourProcessor
 [RandomColor] NetworkBehaviourProcessor
 [ShootingTankBehaviour] NetworkBehaviourProcessor
-Weave behaviours and messages took11 milliseconds
-  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0069815
-Find all reader and writers took 62 milliseconds
+Weave behaviours and messages took15 milliseconds
+  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0079812
+Find all reader and writers took 40 milliseconds
 Script Module: Mirror.Components.dll
 [NetworkAnimator] NetworkBehaviourProcessor
 [NetworkRoomPlayer] NetworkBehaviourProcessor
@@ -139,137 +139,551 @@ Script Module: Mirror.Components.dll
 [NetworkTransformBase] NetworkBehaviourProcessor
 [NetworkTransformBase] NetworkBehaviourProcessor
 [NetworkTransformChild] NetworkBehaviourProcessor
-Weave behaviours and messages took39 milliseconds
-  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0009975
-Find all reader and writers took 50 milliseconds
+Weave behaviours and messages took18 milliseconds
+  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0009917
+Find all reader and writers took 51 milliseconds
 Script Module: Unity.TextMeshPro.dll
 Weave behaviours and messages took35 milliseconds
-Find all reader and writers took 44 milliseconds
+Find all reader and writers took 50 milliseconds
 Script Module: Mirror.Examples.Cloud.GUI.dll
 Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 39 milliseconds
+Find all reader and writers took 63 milliseconds
 Script Module: kcp2k.dll
 Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 39 milliseconds
+Find all reader and writers took 42 milliseconds
 Script Module: Telepathy.dll
 Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 40 milliseconds
+Find all reader and writers took 41 milliseconds
 Script Module: Mirror.Authenticators.dll
-Weave behaviours and messages took2 milliseconds
+Weave behaviours and messages took4 milliseconds
   ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00
-Find all reader and writers took 42 milliseconds
+Find all reader and writers took 44 milliseconds
 Script Module: Mirror.Examples.Cloud.Pong.dll
 [Ball] NetworkBehaviourProcessor
 [BallManager] NetworkBehaviourProcessor
 [Player] NetworkBehaviourProcessor
-Weave behaviours and messages took2 milliseconds
-  ProcessSitesModule Mirror.Examples.Cloud.Pong.dll elapsed time:00:00:00
-Find all reader and writers took 66 milliseconds
+Weave behaviours and messages took4 milliseconds
+  ProcessSitesModule Mirror.Examples.Cloud.Pong.dll elapsed time:00:00:00.0009979
+Find all reader and writers took 74 milliseconds
 Script Module: UnityEditor.TestRunner.dll
-Weave behaviours and messages took23 milliseconds
-Find all reader and writers took 75 milliseconds
+Weave behaviours and messages took19 milliseconds
+Find all reader and writers took 53 milliseconds
 Script Module: UnityEditor.UI.dll
-Weave behaviours and messages took6 milliseconds
-Find all reader and writers took 56 milliseconds
+Weave behaviours and messages took5 milliseconds
+Find all reader and writers took 43 milliseconds
 Script Module: Mirror.CompilerSymbols.dll
 Weave behaviours and messages took0 milliseconds
 Mono: successfully reloaded assembly
-- Completed reload, in  3.366 seconds
+- Completed reload, in  3.334 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1346 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1345 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 64.0 MB.
 System memory in use after: 64.0 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1784.
-Total: 2.479100 ms (FindLiveObjects: 0.232100 ms CreateObjectMapping: 0.096800 ms MarkObjects: 2.110600 ms  DeleteObjects: 0.038100 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1783.
+Total: 2.372500 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.083500 ms  DeleteObjects: 0.056100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c49a07acf06f8e86367b67befe2bbf') in 0.011418 seconds
-  Import took 0.013346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.074117 seconds.
-  path: Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrisonSettings.lighting
-  artifactKey: Guid(85c722085a855534aaf14a6af75e1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrisonSettings.lighting using Guid(85c722085a855534aaf14a6af75e1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7705645317af8f79be92ce9bbfe8801e') in 0.019391 seconds
-  Import took 0.021528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.911177 seconds.
-  path: Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrisonSettings.lighting
-  artifactKey: Guid(85c722085a855534aaf14a6af75e1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrisonSettings.lighting using Guid(85c722085a855534aaf14a6af75e1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7705645317af8f79be92ce9bbfe8801e') in 0.002076 seconds
-  Import took 0.004278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.543984 seconds.
-  path: Assets/Cvests/Cvest1EscapePrison/Toilet
-  artifactKey: Guid(e83889679776f3e47b8de27d0b2faeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cvests/Cvest1EscapePrison/Toilet using Guid(e83889679776f3e47b8de27d0b2faeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f413b0e6767f2072c530175f20ff39') in 0.007349 seconds
-  Import took 0.009498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.170096 seconds.
-  path: Assets/Cvests/Cvest1EscapePrison/Toilet/Scripts
-  artifactKey: Guid(201c16e759de1c944ad5bb03d76058d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cvests/Cvest1EscapePrison/Toilet/Scripts using Guid(201c16e759de1c944ad5bb03d76058d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b842aa05b6ef6ba6ecd0257a48c37928') in 0.007242 seconds
-  Import took 0.009374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.703203 seconds.
-  path: Assets/Cvests/Cvest1EscapePrison/Toilet/Scripts/Text_Spawn.cs
-  artifactKey: Guid(f0b3c7e709dcee74e9ac35af1de9d219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cvests/Cvest1EscapePrison/Toilet/Scripts/Text_Spawn.cs using Guid(f0b3c7e709dcee74e9ac35af1de9d219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc0012f96f29909241ff3e01bef3784') in 0.013410 seconds
-  Import took 0.015357 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001764 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1342 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.6 MB.
-System memory in use after: 64.7 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1786.
-Total: 1.540000 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.049400 ms MarkObjects: 1.328500 ms  DeleteObjects: 0.013800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 140.771581 seconds.
   path: Assets/MainMenu/Offline.unity
   artifactKey: Guid(568bf2949afa4c144b63988c6106b20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainMenu/Offline.unity using Guid(568bf2949afa4c144b63988c6106b20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8020df43df1b1e8bb991bd63710aaef8') in 0.013846 seconds
-  Import took 0.016123 seconds .
+Start importing Assets/MainMenu/Offline.unity using Guid(568bf2949afa4c144b63988c6106b20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c6efc9b1a60bf9fb3e75c8fbafa278') in 0.012071 seconds
+  Import took 0.013909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.127300 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacf27d0db26cf1985465dc83c162f45') in 0.007572 seconds
+  Import took 0.009606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.779962 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png
+  artifactKey: Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png using Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b67e68c37bc879eec3e0f5cff596bf') in 0.129523 seconds
+  Import took 0.135189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png
+  artifactKey: Guid(9332cf0d233636a40a024382720294a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png using Guid(9332cf0d233636a40a024382720294a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9219ad8546996d5f3d7825540d2d2933') in 0.032214 seconds
+  Import took 0.034725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Mirror/Examples/Pong/Sprites/Racket.png
+  artifactKey: Guid(619ccff3ba2f2a04f9ddd19c264a1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Pong/Sprites/Racket.png using Guid(619ccff3ba2f2a04f9ddd19c264a1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32a8ecb338d467ad0011773c072e144') in 0.016683 seconds
+  Import took 0.018833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements/EnterIntoFunnel/GetIntoButton.png
+  artifactKey: Guid(17b325421e67339409f5c0e832dc4a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements/EnterIntoFunnel/GetIntoButton.png using Guid(17b325421e67339409f5c0e832dc4a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b266ec2279c81d3bcbd41da915bd2b4') in 0.015344 seconds
+  Import took 0.017625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Ridged.png
+  artifactKey: Guid(3a74f678ee8f3bd49aacf3de1ae4bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Ridged.png using Guid(3a74f678ee8f3bd49aacf3de1ae4bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3997f809687696c89f5939eeb67dd262') in 0.020085 seconds
+  Import took 0.022734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Outline.png
+  artifactKey: Guid(085185b08a40a924985bc0e4176edea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Outline.png using Guid(085185b08a40a924985bc0e4176edea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8870523b8e7d082538c992290d98c8') in 0.018109 seconds
+  Import took 0.020309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png
+  artifactKey: Guid(a6c56474666ce0647bdb766e9b4764b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png using Guid(a6c56474666ce0647bdb766e9b4764b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701abdb310ec6c68608adc99cff32238') in 0.017710 seconds
+  Import took 0.020083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/CustomBackground.png
+  artifactKey: Guid(6718011247eaf964f808abdb2c29c54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/CustomBackground.png using Guid(6718011247eaf964f808abdb2c29c54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4592fa19cf55d953300e13407efb7787') in 0.018580 seconds
+  Import took 0.021576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/CustomThinBackground.png
+  artifactKey: Guid(422eddaa09518574b854fe9a36e19839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/CustomThinBackground.png using Guid(422eddaa09518574b854fe9a36e19839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310b4bdf9fffad94279bb869211c3077') in 0.013159 seconds
+  Import took 0.016085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png
+  artifactKey: Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png using Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838a19c82121e2b00b6835281d86abb1') in 0.022219 seconds
+  Import took 0.025949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/Ball.png
+  artifactKey: Guid(2c19e4cb225706240af7a8fbbf2ebfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/Ball.png using Guid(2c19e4cb225706240af7a8fbbf2ebfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ea6baf41483063546ae7cc209898e3') in 0.016689 seconds
+  Import took 0.018763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/CustomHandle.png
+  artifactKey: Guid(780659e223be4554dbadfa420774fd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/CustomHandle.png using Guid(780659e223be4554dbadfa420774fd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c81865493bd8de05c9898ce97e87ee0') in 0.016272 seconds
+  Import took 0.018514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements/GetItemFromToiletCisternButton/GetItemButton.png
+  artifactKey: Guid(beae98bbc8adf0a43a9b8c958a7bf2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements/GetItemFromToiletCisternButton/GetItemButton.png using Guid(beae98bbc8adf0a43a9b8c958a7bf2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93e95f90da65a740d17d681354d9264') in 0.015987 seconds
+  Import took 0.019346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png
+  artifactKey: Guid(7927b9032dc11e841af3f9a1353d7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png using Guid(7927b9032dc11e841af3f9a1353d7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ede581fdc83a53fb87709db8406810') in 0.018932 seconds
+  Import took 0.021328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png
+  artifactKey: Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png using Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d1ff40ea00b9b2d5ab6431fb97ab91') in 0.019421 seconds
+  Import took 0.022010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/WallHorizontal.png
+  artifactKey: Guid(0e02a5d1b4172d444aa04f1082aed12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/WallHorizontal.png using Guid(0e02a5d1b4172d444aa04f1082aed12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a450dd1ad03a38705db890a6b14065b3') in 0.017195 seconds
+  Import took 0.019219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Mirror/Examples/Pong/Sprites/WallHorizontal.png
+  artifactKey: Guid(b931587800e08c54aa8dbbd6c15c894f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Pong/Sprites/WallHorizontal.png using Guid(b931587800e08c54aa8dbbd6c15c894f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7c799c1f7adcb522ecaeb73765ef35') in 0.006525 seconds
+  Import took 0.008795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png
+  artifactKey: Guid(6304ad603f150b649b764d29bbc2a87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png using Guid(6304ad603f150b649b764d29bbc2a87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4241f0d80aacfe2bbdfdbd16ff501842') in 0.026218 seconds
+  Import took 0.028383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements/PutItemIntoToiletButton/PutItemButton.png
+  artifactKey: Guid(3754784de9d34204b944b432d04232cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements/PutItemIntoToiletButton/PutItemButton.png using Guid(3754784de9d34204b944b432d04232cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2135f695c48dfa253765dda7edca2c') in 0.015215 seconds
+  Import took 0.017443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/WallVertical.png
+  artifactKey: Guid(f43241f798f4cf944be80d465435c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/WallVertical.png using Guid(f43241f798f4cf944be80d465435c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469ad0958ee1ad78abc60ab8628dcc82') in 0.017405 seconds
+  Import took 0.019455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements/MoveToiletButton/MoveButton.png
+  artifactKey: Guid(c951d6b54af68d944ab3ec4daa9b5dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements/MoveToiletButton/MoveButton.png using Guid(c951d6b54af68d944ab3ec4daa9b5dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3318ef72183c681c35b1bbaac0a3b684') in 0.016318 seconds
+  Import took 0.018204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Plain.png
+  artifactKey: Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Plain.png using Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0113c3411f6e0c7aa0a09d0b5cdd3299') in 0.011914 seconds
+  Import took 0.013866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png
+  artifactKey: Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png using Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6910cf35f0c2bb88c16196eee45162f8') in 0.020480 seconds
+  Import took 0.023001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png
+  artifactKey: Guid(097782735540f2d4db5606eae04ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png using Guid(097782735540f2d4db5606eae04ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddaa00cb3923313044fbd1195e4ab6d') in 0.018898 seconds
+  Import took 0.021287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png
+  artifactKey: Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png using Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f175bcbee72f505ccdcd682b7fdba42b') in 0.018459 seconds
+  Import took 0.020726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Mirror/Examples/Pong/Sprites/DottedLine.png
+  artifactKey: Guid(1b5c0b514d8b2d24091d5aec516fe860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Pong/Sprites/DottedLine.png using Guid(1b5c0b514d8b2d24091d5aec516fe860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13326943de3ee3098cdf21e7eb53058a') in 0.017334 seconds
+  Import took 0.019357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements/OpenToiletCisternButton/OpenButton.png
+  artifactKey: Guid(6e880e5a05ddee04e953e5c3d33046ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements/OpenToiletCisternButton/OpenButton.png using Guid(6e880e5a05ddee04e953e5c3d33046ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027e825fa7f57ef7a23f3dcc2c2365bc') in 0.012450 seconds
+  Import took 0.014685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/Racket.png
+  artifactKey: Guid(bdb0ccb2f147a3d47abe396bd18c5dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/Racket.png using Guid(bdb0ccb2f147a3d47abe396bd18c5dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b07248c401a13775ef50a3be79eb7d') in 0.005351 seconds
+  Import took 0.007731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png
+  artifactKey: Guid(84487d73ca4b791498332d8f6858417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png using Guid(84487d73ca4b791498332d8f6858417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcad88f35d89262da86f0c516b8aec6') in 0.020905 seconds
+  Import took 0.022916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png
+  artifactKey: Guid(ab6db91373811284caeba2e9472fa9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png using Guid(ab6db91373811284caeba2e9472fa9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381f968f0d73d82400eb08c6ad4a76fc') in 0.018569 seconds
+  Import took 0.021012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Mirror/Examples/Pong/Sprites/WallVertical.png
+  artifactKey: Guid(0f2833a292a197d4fb0385a8efa1dc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Pong/Sprites/WallVertical.png using Guid(0f2833a292a197d4fb0385a8efa1dc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb30a9200d5446df26097de07afd2b1') in 0.005888 seconds
+  Import took 0.008329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png
+  artifactKey: Guid(2a1f3cba20f3e11498474a705db12fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png using Guid(2a1f3cba20f3e11498474a705db12fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98747a67f2ba2bc5ced41ba358c07b1') in 0.018843 seconds
+  Import took 0.022054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png
+  artifactKey: Guid(54628aafa20f64b40ae661038ee7abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png using Guid(54628aafa20f64b40ae661038ee7abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b75128345eb0e4032411f0b832c9022') in 0.025358 seconds
+  Import took 0.028264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Mirror/Examples/Pong/Sprites/Ball.png
+  artifactKey: Guid(4b66f21097323d44ab40669b2fb9c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Pong/Sprites/Ball.png using Guid(4b66f21097323d44ab40669b2fb9c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f402178a9c29d11218895d43d5188494') in 0.005834 seconds
+  Import took 0.008579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/CustomHandleDark.png
+  artifactKey: Guid(e6b75af5f993bdf49bfb2194ee8e0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/CustomHandleDark.png using Guid(e6b75af5f993bdf49bfb2194ee8e0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3585b3ed927e9f3a436fad68ac3e9a6a') in 0.011807 seconds
+  Import took 0.013915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements/ScrowOutToiletButton/ScrowOutButton.png
+  artifactKey: Guid(c8cdbc3b556958a4485024b5e183a91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements/ScrowOutToiletButton/ScrowOutButton.png using Guid(c8cdbc3b556958a4485024b5e183a91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b01b7346f009bedb6f5d50f39552de') in 0.016965 seconds
+  Import took 0.019380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png
+  artifactKey: Guid(48c0d4d6bebaa934384b07aa1e2f8184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png using Guid(48c0d4d6bebaa934384b07aa1e2f8184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2782c2c2276cc1c3668a9be8fb6d34f6') in 0.019717 seconds
+  Import took 0.021741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png
+  artifactKey: Guid(f353d42d1db27ff42b78b28efd86b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png using Guid(f353d42d1db27ff42b78b28efd86b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5371eb3743f18fbc108f3075f4005570') in 0.018639 seconds
+  Import took 0.021937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png
+  artifactKey: Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png using Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4ed78a6d4c0e4f01a8c33086214824') in 0.020569 seconds
+  Import took 0.022828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png
+  artifactKey: Guid(c615706690ca87043ad593475e6db7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png using Guid(c615706690ca87043ad593475e6db7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937b4e1cff98675b0c4e491b908cef29') in 0.020333 seconds
+  Import took 0.023429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/DottedLine.png
+  artifactKey: Guid(4ca12bae2c4cf2b419098a2a2026123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Cloud/PongWithListServer/Sprites/DottedLine.png using Guid(4ca12bae2c4cf2b419098a2a2026123e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a48603e150147af1ef9b5c6513a1e5') in 0.005226 seconds
+  Import took 0.007424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png
+  artifactKey: Guid(08c1fa6351174a9439d97cfc9d3307cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png using Guid(08c1fa6351174a9439d97cfc9d3307cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ccfc9ea1438337466d3a85159554fa1') in 0.019567 seconds
+  Import took 0.021642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png
+  artifactKey: Guid(f054197ef28924b4986cbd91de2ab054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png using Guid(f054197ef28924b4986cbd91de2ab054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8849a1c7a64c6099a5c646134c55b540') in 0.020795 seconds
+  Import took 0.023005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png
+  artifactKey: Guid(c8585b68a92b5d440992ddd7d1b1a3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainCharacters/FirstMainCharacter/Joystick/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png using Guid(c8585b68a92b5d440992ddd7d1b1a3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b70ed7306fe7ef0b975e5531db027c') in 0.022827 seconds
+  Import took 0.024830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements/GetItemFromToilet/GetItemButton.png
+  artifactKey: Guid(abd64cc563c01bf4e8e5096366cae6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements/GetItemFromToilet/GetItemButton.png using Guid(abd64cc563c01bf4e8e5096366cae6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184fd956fd923b09e63d47445bf167aa') in 0.012409 seconds
+  Import took 0.014460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.249775 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements
+  artifactKey: Guid(066bfc6204ffc594eb33082e29f5b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements using Guid(066bfc6204ffc594eb33082e29f5b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81e8d8ff81d84817ce627b73cef084b') in 0.007176 seconds
+  Import took 0.009234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006073 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements
+  artifactKey: Guid(066bfc6204ffc594eb33082e29f5b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements using Guid(066bfc6204ffc594eb33082e29f5b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81e8d8ff81d84817ce627b73cef084b') in 0.002633 seconds
+  Import took 0.004706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.360596 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements/EnterIntoFunnel
+  artifactKey: Guid(ff2c89be57f6e8547bc9c2a83266bd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements/EnterIntoFunnel using Guid(ff2c89be57f6e8547bc9c2a83266bd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0629f0b3f5f2a0f514900b3da893832e') in 0.007672 seconds
+  Import took 0.009784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.497946 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements/GetItemFromToilet
+  artifactKey: Guid(687915e8dbeecb94cb2d860f1b31949c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements/GetItemFromToilet using Guid(687915e8dbeecb94cb2d860f1b31949c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a4f167006000ee8345205baeeb7d34') in 0.006621 seconds
+  Import took 0.008828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004186 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements/GetItemFromToilet
+  artifactKey: Guid(687915e8dbeecb94cb2d860f1b31949c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements/GetItemFromToilet using Guid(687915e8dbeecb94cb2d860f1b31949c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a4f167006000ee8345205baeeb7d34') in 0.002159 seconds
+  Import took 0.004373 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001750 seconds.
+Registered in 0.001669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1343 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1808.
+Total: 1.447700 ms (FindLiveObjects: 0.140200 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.230600 ms  DeleteObjects: 0.031200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.664685 seconds.
+  path: Assets/Cvests/Cvest1EscapePrison/UIElements/GetItemFromToilet/GetItemFromToiletScript.cs
+  artifactKey: Guid(c06a419362cfcaf48898d2e4c762c9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cvests/Cvest1EscapePrison/UIElements/GetItemFromToilet/GetItemFromToiletScript.cs using Guid(c06a419362cfcaf48898d2e4c762c9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcb483aff136be8202772e2ffc2862b') in 0.014737 seconds
+  Import took 0.016961 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001728 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1344 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.0 MB.
+System memory in use after: 68.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1810.
+Total: 1.467700 ms (FindLiveObjects: 0.154900 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.254400 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002091 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1344 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1812.
+Total: 1.526000 ms (FindLiveObjects: 0.233900 ms CreateObjectMapping: 0.062300 ms MarkObjects: 1.215100 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001758 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
@@ -278,45 +692,21 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.659 seconds
+- Completed reload, in  0.731 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1343 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.8 MB.
-System memory in use after: 64.9 MB.
+Unloading 1344 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1788.
-Total: 1.609400 ms (FindLiveObjects: 0.191100 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.343900 ms  DeleteObjects: 0.033700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.686724 seconds.
-  path: Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d749959e24c0840578f422e8b1eac6a') in 0.009984 seconds
-  Import took 0.012975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.620180 seconds.
-  path: Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9102b5548368f20e2fd60377e426212f') in 0.002199 seconds
-  Import took 0.004528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001440 seconds.
-  path: Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9102b5548368f20e2fd60377e426212f') in 0.002090 seconds
-  Import took 0.004393 seconds .
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1814.
+Total: 1.605400 ms (FindLiveObjects: 0.147900 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.395200 ms  DeleteObjects: 0.015700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001704 seconds.
+Registered in 0.001682 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
@@ -325,69 +715,69 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.704 seconds
+- Completed reload, in  0.681 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1343 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.1 MB.
+Unloading 1344 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 68.5 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1790.
-Total: 1.392200 ms (FindLiveObjects: 0.132300 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.205800 ms  DeleteObjects: 0.013000 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1816.
+Total: 1.399000 ms (FindLiveObjects: 0.164100 ms CreateObjectMapping: 0.054700 ms MarkObjects: 1.166600 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1344 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 68.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1818.
+Total: 1.570400 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.353000 ms  DeleteObjects: 0.014200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.111559 seconds.
+  Time since last request: 1892.074733 seconds.
   path: Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf248d581bd0b0062f54e75630b570e') in 0.017858 seconds
-  Import took 0.024936 seconds .
+Start importing Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576ec6060b00354831a5d7c633bae6e9') in 0.021395 seconds
+  Import took 0.026055 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001826 seconds.
+Registered in 0.003771 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.818 seconds
+- Completed reload, in  1.032 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1343 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.2 MB.
+Unloading 1344 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.8 MB.
+System memory in use after: 68.9 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1792.
-Total: 2.184800 ms (FindLiveObjects: 0.324800 ms CreateObjectMapping: 0.162500 ms MarkObjects: 1.677300 ms  DeleteObjects: 0.018300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001643 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1343 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.3 MB.
-System memory in use after: 65.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1794.
-Total: 1.721400 ms (FindLiveObjects: 0.128900 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.546000 ms  DeleteObjects: 0.012600 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1820.
+Total: 1.785500 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.056800 ms MarkObjects: 1.536200 ms  DeleteObjects: 0.017700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
