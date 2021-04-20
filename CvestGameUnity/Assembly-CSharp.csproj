@@ -55,6 +55,7 @@
      <Compile Include="Assets\Cvests\Cvest1EscapePrison\Toilet\Scripts\ToiletCoverOpenScript.cs" />
      <Compile Include="Assets\Cvests\Cvest1EscapePrison\Toilet\Scripts\CharacterNearToiletScript.cs" />
      <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+     <Compile Include="Assets\Cvests\Cvest1EscapePrison\UIElements\PutItemIntoToiletButton\PutItemIntoToiletScript.cs" />
      <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
      <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
      <Compile Include="Assets\Cvests\Cvest1EscapePrison\UIElements\OpenToiletCisternButton\ScriptForOpenToiletCisternButton.cs" />
