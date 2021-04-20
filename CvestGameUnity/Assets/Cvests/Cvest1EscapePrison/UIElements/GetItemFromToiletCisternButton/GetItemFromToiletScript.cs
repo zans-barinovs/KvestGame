@@ -5,7 +5,7 @@ using UnityEngine;
 public class GetItemFromToiletScript : MonoBehaviour
 {
     public delegate void GetItemFrpmToiletCistermnEnetsDeligate();
-    public static event GetItemFrpmToiletCistermnEnetsDeligate GetItemFrpmToiletCistermnEnet;
+    public static event GetItemFrpmToiletCistermnEnetsDeligate GetItemFromToiletCistermnEvnet;
 
 
     public GameObject ThisObject;
@@ -61,8 +61,8 @@ public class GetItemFromToiletScript : MonoBehaviour
         {
             if (ButtonPresed && RayFromMouseHitedObjects.transform.position.ToString() == new Vector3(1.2f, 1.4f, -0.23f).ToString())
             {
-                GetItemFrpmToiletCistermnEnet?.Invoke();
-                Debug.Log("GetItemFrpmToiletCistermnEnet");
+                GetItemFromToiletCistermnEvnet?.Invoke();
+                Debug.Log("GetItemFromToiletCistermnEvnet");
             }
         }
 
