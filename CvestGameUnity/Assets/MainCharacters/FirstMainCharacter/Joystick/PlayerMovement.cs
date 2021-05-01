@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
-public class PlayerMovement : MonoBehaviour
+public class MonoBehaviour : MonoBehaviour
 {
     Joystick joystick;
     Joystick lookJoystick;

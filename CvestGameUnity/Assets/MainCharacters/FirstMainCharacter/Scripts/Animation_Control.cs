@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
-    public class Animation_Control : NetworkBehaviour
+    public class Animation_Control : MonoBehaviourPunCallbacks
     {
         Animator CurrentAnimation;
         
