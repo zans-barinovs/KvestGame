@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
+- path: Assets/MainMenu/MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
