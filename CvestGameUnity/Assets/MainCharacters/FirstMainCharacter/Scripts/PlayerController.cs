@@ -6,7 +6,7 @@ namespace Mirror.Examples.Additive
     [RequireComponent(typeof(CharacterController))]
     [RequireComponent(typeof(NetworkTransform))]
     [RequireComponent(typeof(Rigidbody))]
-    public class PlayerController : NetworkBehaviour
+    public class PlayerController : MonoBehaviour
     {
         public CharacterController characterController;
         
@@ -20,17 +20,6 @@ namespace Mirror.Examples.Additive
         {
             characterController.enabled = isLocalPlayer;
             
-        }
-
-        public override void OnStartLocalPlayer()
-        {
-            //(������� ��� ��������� ������) - ������� ������ �� ��������� ������� ������:
-            Camera.main.transform.parent = null;
-
-            //Camera.main.orthographic = false;
-            //Camera.main.transform.SetParent(transform);
-            //Camera.main.transform.localPosition = new Vector3(0f, 5f, 0f);
-            //Camera.main.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
         }
 
         void OnDisable()
