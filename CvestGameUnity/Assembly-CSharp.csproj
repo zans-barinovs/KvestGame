@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\Cvests\Cvest1EscapePrison\UIElements\EnterIntoVentilationBUtton\ScriptForEnterIntoVentilationButton.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Scripts\ObjectsRotation.cs" />
     <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\MainMenu\UILobby.cs" />
@@ -79,9 +80,8 @@
     <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\MainMenu\Player_Lobby.cs" />
     <Compile Include="Assets\MainMenu\AutoConnect.cs" />
-    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\PlayerMovement.cs" />
     <Compile Include="Assets\MainCharacters\FirstMainCharacter\Scripts\TakeSomething.cs" />
-    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Scripts\ObjectsRotation.cs" />
+    <Compile Include="Assets\MainCharacters\FirstMainCharacter\Joystick\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />

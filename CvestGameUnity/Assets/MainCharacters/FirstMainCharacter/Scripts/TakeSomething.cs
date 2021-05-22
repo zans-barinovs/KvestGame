@@ -30,7 +30,7 @@ public class TakeSomething : MonoBehaviour
                 inHands = GameObject.Find("wrench");
                 inHands.transform.position = hand.transform.position;
                 inHands.GetComponent<ObjectsRotation>().enabled = true;
-                //model.GetComponent<Animator>().SetBool("isWithSomething", true); //Когда пофиксите анимацию - расскоммитте это.
+                model.GetComponent<Animator>().SetBool("isWithSomething", true);
             }
         }
         else
@@ -44,7 +44,7 @@ public class TakeSomething : MonoBehaviour
         if (item == "Wrench")
         {
             ok = false;
-            //model.GetComponent<Animator>().SetBool("isWithSomething", false); //Когда пофиксите анимацию - расскоммитте это.
+            model.GetComponent<Animator>().SetBool("isWithSomething", false);
             inHands.GetComponent<ObjectsRotation>().enabled = false;
             inHands.transform.position = new Vector3(1.45f, 0.8400002f, -0.45f);
             inHands.transform.rotation = Quaternion.Euler(-66.23f, 7.913f, -97.786f);
