@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainMenu/MainMenu.unity
-    guid: 568bf2949afa4c144b63988c6106b20d
-  - enabled: 1
     path: Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/MainMenu/MainMenu.unity
+    guid: 568bf2949afa4c144b63988c6106b20d
+  - enabled: 0
     path: Assets/MainMenu/Lobby.unity
     guid: ace99f38e167f1e439e6d35efb51a7a0
   m_configObjects: {}
