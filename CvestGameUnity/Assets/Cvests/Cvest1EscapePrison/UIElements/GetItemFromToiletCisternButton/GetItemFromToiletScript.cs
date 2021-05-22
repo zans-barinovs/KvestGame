@@ -9,6 +9,7 @@ public class GetItemFromToiletScript : MonoBehaviour
 
 
     public GameObject ThisObject;
+    public GameObject player;
 
     private float WaitForEventTime = 0.1f;
     private float TimerForEventTime = 0.0f;
@@ -63,6 +64,11 @@ public class GetItemFromToiletScript : MonoBehaviour
             {
                 GetItemFromToiletCistermnEvnet?.Invoke();
                 Debug.Log("GetItemFromToiletCistermnEvnet");
+
+                //Get Item:
+                player = GameObject.Find("Player(Clone)");
+                player.GetComponent<TakeSomething>().Take();
+                player.GetComponent<TakeSomething>().item = "Wrench";
             }
         }
 

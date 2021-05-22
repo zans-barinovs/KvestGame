@@ -9,6 +9,7 @@ public class PutItemIntoToiletScript : MonoBehaviour
 
 
     public GameObject ThisObject;
+    public GameObject player;
 
     private float WaitForEventTime = 0.1f;
     private float TimerForEventTime = 0.0f;
@@ -63,6 +64,9 @@ public class PutItemIntoToiletScript : MonoBehaviour
             {
                 PutItemIntoToiletButtonEvent?.Invoke();
                 Debug.Log("PutItemIntoToiletButtonEvent");
+                //Put Item:
+                player = GameObject.Find("Player(Clone)");
+                player.GetComponent<TakeSomething>().Put();
             }
         }
 

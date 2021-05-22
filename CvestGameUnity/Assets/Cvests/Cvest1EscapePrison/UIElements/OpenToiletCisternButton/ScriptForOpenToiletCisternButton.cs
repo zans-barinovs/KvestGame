@@ -58,6 +58,8 @@ public class ScriptForOpenToiletCisternButton : MonoBehaviour
             {
                 OpenToiletCisternButtonUnClickEvent?.Invoke();
                 Debug.Log("OpenToiletCisternButtonUnClickEventt");
+                //Hide button:
+                ThisObject.GetComponent<SpriteRenderer>().enabled = false;
             }
         }
 
