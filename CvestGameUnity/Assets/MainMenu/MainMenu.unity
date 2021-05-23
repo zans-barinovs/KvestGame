@@ -592,7 +592,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Settings
+  m_Text: CreateRoom
 --- !u!222 &1078724924
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -613,6 +613,7 @@ GameObject:
   - component: {fileID: 1592787597}
   - component: {fileID: 1592787596}
   - component: {fileID: 1592787595}
+  - component: {fileID: 1592787598}
   m_Layer: 5
   m_Name: SettingsButton
   m_TagString: Untagged
@@ -637,8 +638,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -287.32574, y: -103.703995}
-  m_SizeDelta: {x: 216.4244, y: 69.408}
+  m_AnchoredPosition: {x: -199.03, y: -103.7}
+  m_SizeDelta: {x: 387.8913, y: 69.408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1592787595
 MonoBehaviour:
@@ -683,7 +684,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1592787596}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1592787598}
+        m_TargetAssemblyTypeName: MainNetworkScript, Assembly-CSharp
+        m_MethodName: CreateRoom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1592787596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -722,6 +735,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592787593}
   m_CullTransparentMesh: 1
+--- !u!114 &1592787598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592787593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b762b63753ee6b458d5b91e57cc368d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerNickNameObject: {fileID: 1865939300}
+  RoomIDObject: {fileID: 2137169918}
+  GameLevel: 
 --- !u!1 &1631502915
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,8 +853,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.3931, y: -103.7042}
-  m_SizeDelta: {x: 293.3361, y: 69.4082}
+  m_AnchoredPosition: {x: 199.03, y: -103.7}
+  m_SizeDelta: {x: 387.89, y: 69.4082}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1749568130
 MonoBehaviour:
@@ -874,7 +902,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1749568133}
         m_TargetAssemblyTypeName: MainNetworkScript, Assembly-CSharp
-        m_MethodName: JoinOrCreateRoom
+        m_MethodName: JoinRoom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -936,6 +964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerNickNameObject: {fileID: 1865939300}
   RoomIDObject: {fileID: 2137169918}
+  GameLevel: 
 --- !u!1 &1769042327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,7 +1473,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start Game
+  m_Text: JoinRoom
 --- !u!222 &1998091665
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1489,7 +1518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 282.20593, y: -103.703995}
+  m_AnchoredPosition: {x: 518, y: -13}
   m_SizeDelta: {x: 216.4268, y: 69.408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2010473419

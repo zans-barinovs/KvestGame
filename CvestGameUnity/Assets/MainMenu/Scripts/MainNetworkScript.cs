@@ -11,15 +11,18 @@ public class MainNetworkScript : MonoBehaviourPunCallbacks
 
     public string GameLevel; //уровень в игре. В нашем случае название квеста.
 
+    private bool LoadLevelRunning;
+
     private void Start() 
     {
-        PhotonNetwork.NickName = "Player" + Random.Range(1,20);     
+        PhotonNetwork.NickName = "Player" + Random.Range(1,200);     
 
         PhotonNetwork.AutomaticallySyncScene = true;
         PhotonNetwork.GameVersion = "1.0";
         PhotonNetwork.ConnectUsingSettings();   
 
         GameLevel = "Cvest1EscapePrison";
+        LoadLevelRunning = false;
     }
 
     private void Update() 
@@ -28,37 +31,53 @@ public class MainNetworkScript : MonoBehaviourPunCallbacks
         if (!(PlayerNickName == null || PlayerNickName == ""))
         {
             PhotonNetwork.NickName = PlayerNickName;
-            Debug.Log("PlayerNickName: " + PlayerNickName);
+            // Debug.Log("PlayerNickName: " + PlayerNickName);
         }
 
         RoomID = RoomIDObject.GetComponent<InputField>().text;
-        Debug.Log("RoomID: " + RoomID);
+        // Debug.Log("RoomID: " + RoomID);
     }
 
-    public override void OnConnectedToMaster()
-    {
-        Debug.Log("ConnectedToMaster");
-    }
+
 
     public override void OnJoinedRoom()
     {
         Debug.Log("OnJoinedRoom");
-
-        // PhotonNetwork.LoadLevel(GameLevel);
-        PhotonNetwork.LoadLevel();
+        if (!LoadLevelRunning && PhotonNetwork.IsMasterClient)
+        {
+            LoadLevelRunning = true;
+            PhotonNetwork.LoadLevel("Cvest1EscapePrison");
+            LoadLevelRunning = false;
+        }
     }
 
-    public void JoinOrCreateRoom()
+    public void CreateRoom()
     {
-        try
-        {
-            // PhotonNetwork.JoinRoom(RoomID);
-            PhotonNetwork.JoinRandomRoom();
-        }
-        catch (System.Exception)
-        {
-            // PhotonNetwork.CreateRoom(RoomID, new Photon.Realtime.RoomOptions{ MaxPlayers = 2});
-            PhotonNetwork.CreateRoom(null, new Photon.Realtime.RoomOptions{ MaxPlayers = 2});
-        }
+        Debug.Log("CreateRoom");
+        PhotonNetwork.CreateRoom(RoomID, new Photon.Realtime.RoomOptions{ MaxPlayers = 2});
+        // PhotonNetwork.CreateRoom(null, new Photon.Realtime.RoomOptions{ MaxPlayers = 2});        
+    }
+
+    public void JoinRoom()
+    {
+        Debug.Log("JoinRoom");
+        PhotonNetwork.JoinRoom(RoomID);
+    }
+
+    public override void OnJoinedLobby()
+    {
+        Debug.Log("OnJoinedLobby");
+    }
+    public override void OnConnectedToMaster()
+    {
+        Debug.Log("ConnectedToMaster");
+    }
+    public override void OnJoinRoomFailed(short returnCode, string message)
+    {
+        Debug.Log("OnJoinRoomFailed: " + returnCode + message);
+    }
+    public override void OnCreateRoomFailed(short returnCode, string message)
+    {
+        Debug.Log("OnCreateRoomFailed: " + returnCode + message);
     }
 }
