@@ -828,7 +828,6 @@ GameObject:
   - component: {fileID: 1749568132}
   - component: {fileID: 1749568131}
   - component: {fileID: 1749568130}
-  - component: {fileID: 1749568133}
   m_Layer: 5
   m_Name: StartGameButton
   m_TagString: Untagged
@@ -900,7 +899,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1749568133}
+      - m_Target: {fileID: 1592787598}
         m_TargetAssemblyTypeName: MainNetworkScript, Assembly-CSharp
         m_MethodName: JoinRoom
         m_Mode: 1
@@ -950,21 +949,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749568128}
   m_CullTransparentMesh: 1
---- !u!114 &1749568133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1749568128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b762b63753ee6b458d5b91e57cc368d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerNickNameObject: {fileID: 1865939300}
-  RoomIDObject: {fileID: 2137169918}
-  GameLevel: 
 --- !u!1 &1769042327
 GameObject:
   m_ObjectHideFlags: 0

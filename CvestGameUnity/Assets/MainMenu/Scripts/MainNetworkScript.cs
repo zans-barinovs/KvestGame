@@ -46,8 +46,7 @@ public class MainNetworkScript : MonoBehaviourPunCallbacks
         if (!LoadLevelRunning && PhotonNetwork.IsMasterClient)
         {
             LoadLevelRunning = true;
-            PhotonNetwork.LoadLevel("Cvest1EscapePrison");
-            LoadLevelRunning = false;
+            PhotonNetwork.LoadLevel(GameLevel);
         }
     }
 
