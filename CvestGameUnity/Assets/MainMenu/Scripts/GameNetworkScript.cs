@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class GameNetworkScript : MonoBehaviourPunCallbacks
 {
+    public GameObject FirstMainCharacter;
+    public GameObject FirstMainCharacterSpawnPoint;
+
     private void Start() 
     {
-        PhotonNetwork.Instantiate{}; //видео 15:13 Указать название игрока и его координаты спауна для руна.
+        PhotonNetwork.Instantiate(FirstMainCharacter.name, FirstMainCharacterSpawnPoint.transform.position, Quaternion.identity, 0); //видео 15:13 Указать название игрока и его координаты спауна для руна.
     }
 
     public void LeaveRoom()
