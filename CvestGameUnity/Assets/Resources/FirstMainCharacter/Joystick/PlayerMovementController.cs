@@ -26,7 +26,7 @@ public class PlayerMovementController : MonoBehaviour
     }
     public void Walk()
     {
-        if(ComponentPhotonView.IsMine) return;
+        if(!ComponentPhotonView.IsMine) return;
 
         float hoz = joystick.Horizontal;
         float ver = joystick.Vertical;
