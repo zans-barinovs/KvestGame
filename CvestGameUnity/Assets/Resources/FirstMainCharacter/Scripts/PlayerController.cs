@@ -21,18 +21,19 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         // characterController.enabled = isLocalPlayer;
-        
+        Camera.main.transform.SetParent(null);
     }
 
     void OnDisable()
     {
-        // if (isLocalPlayer && Camera.main != null)
-        {
-            //Camera.main.orthographic = true;
-            //Camera.main.transform.SetParent(null);
-            //Camera.main.transform.localPosition = new Vector3(0f, 70f, 0f);
-            //Camera.main.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
-        }
+        // Camera.main.transform.SetParent(null);
+        // if (Camera.main != null)
+        // {
+        //     Camera.main.orthographic = true;
+        //     Camera.main.transform.SetParent(null);
+        //     Camera.main.transform.localPosition = new Vector3(0f, 70f, 0f);
+        //     Camera.main.transform.localEulerAngles = new Vector3(90f, 0f, 0f);
+        // }
     }
 
     [Header("Movement Settings")]

@@ -20,7 +20,8 @@ public class GameNetworkScript : MonoBehaviourPunCallbacks
 
     public override void OnLeftRoom() //вызывается когда этот игролк покидает комнату.
     {
-        SceneManager.LoadScene(0);
+        
+        Application.LoadLevel(0);
         Debug.Log("This Player left room");
     }
 
