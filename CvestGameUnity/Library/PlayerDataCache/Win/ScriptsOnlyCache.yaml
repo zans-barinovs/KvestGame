@@ -16,6 +16,8 @@ ScriptsOnlyBuild:
     - PutItemIntoToiletScript
     - ScriptForEnterIntoVentilationButton
     - ScriptForOpenToiletCisternButton
+    - SecondCharacterCameraFollow
+    - SecondPlayerController
     - ToiletCoverOpenScript
     - VariableJoystick
     - VentilationEnterScript
@@ -119,31 +121,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2286}
     - Class: 114
-      Script: {instanceID: 2400}
+      Script: {instanceID: 2402}
     - Class: 114
-      Script: {instanceID: 2576}
+      Script: {instanceID: 2578}
     - Class: 114
-      Script: {instanceID: 2604}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2918}
+      Script: {instanceID: 2920}
     - Class: 114
-      Script: {instanceID: 2932}
+      Script: {instanceID: 2934}
     - Class: 114
-      Script: {instanceID: 2966}
+      Script: {instanceID: 2968}
     - Class: 114
-      Script: {instanceID: 3132}
+      Script: {instanceID: 3134}
     - Class: 114
-      Script: {instanceID: 3242}
+      Script: {instanceID: 3244}
     - Class: 114
-      Script: {instanceID: 3272}
+      Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3384}
+      Script: {instanceID: 3362}
     - Class: 114
-      Script: {instanceID: 3728}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 3732}
+      Script: {instanceID: 3730}
+    - Class: 114
+      Script: {instanceID: 3734}
+    - Class: 114
+      Script: {instanceID: 34388}
+    - Class: 114
+      Script: {instanceID: 34926}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -251,49 +259,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2232}
     - Class: 114
+      Script: {instanceID: 2282}
+    - Class: 114
       Script: {instanceID: 2286}
     - Class: 114
-      Script: {instanceID: 2380}
+      Script: {instanceID: 2382}
     - Class: 114
-      Script: {instanceID: 2492}
+      Script: {instanceID: 2494}
     - Class: 114
-      Script: {instanceID: 2500}
+      Script: {instanceID: 2502}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2576}
+      Script: {instanceID: 2578}
     - Class: 114
-      Script: {instanceID: 2602}
+      Script: {instanceID: 2604}
     - Class: 114
-      Script: {instanceID: 2756}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 2816}
+      Script: {instanceID: 2818}
     - Class: 114
-      Script: {instanceID: 2918}
+      Script: {instanceID: 2920}
     - Class: 114
-      Script: {instanceID: 2932}
+      Script: {instanceID: 2934}
     - Class: 114
-      Script: {instanceID: 2966}
+      Script: {instanceID: 2968}
     - Class: 114
-      Script: {instanceID: 3132}
+      Script: {instanceID: 3134}
     - Class: 114
-      Script: {instanceID: 3360}
+      Script: {instanceID: 3362}
     - Class: 114
-      Script: {instanceID: 3384}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 3464}
     - Class: 114
-      Script: {instanceID: 3580}
+      Script: {instanceID: 3582}
     - Class: 114
-      Script: {instanceID: 3728}
+      Script: {instanceID: 3730}
     - Class: 114
-      Script: {instanceID: 3732}
+      Script: {instanceID: 3734}
     - Class: 114
-      Script: {instanceID: 3746}
+      Script: {instanceID: 3748}
     - Class: 114
       Script: {instanceID: 4034}
     - Class: 114
-      Script: {instanceID: 38104}
+      Script: {instanceID: 34388}
+    - Class: 114
+      Script: {instanceID: 34926}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -855,6 +867,12 @@ ScriptsOnlyBuild:
     className: PutItemIntoToiletScript
   - hash:
       serializedVersion: 2
+      Hash: 80c499329c65e8a1cc409836a8e118ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMovementController
+  - hash:
+      serializedVersion: 2
       Hash: ce669872a2be11bc686ea22961d8a3bb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1383,7 +1401,7 @@ ScriptsOnlyBuild:
     className: PhotonRigidbody2DView
   - hash:
       serializedVersion: 2
-      Hash: 09f893e2c81ffefe512750bb8134da20
+      Hash: 333e14a3cc78831965ba9d548c1f86c7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameNetworkScript
@@ -1779,13 +1797,25 @@ ScriptsOnlyBuild:
     className: DynamicJoystickEditor
   - hash:
       serializedVersion: 2
+      Hash: 76519a266f7007a74f469c2634b08ce9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SecondCharacterCameraFollow
+  - hash:
+      serializedVersion: 2
       Hash: 80c499329c65e8a1cc409836a8e118ca
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlayerMovementController
+    className: SecondCharacterPlayerMovementController
+  - hash:
+      serializedVersion: 2
+      Hash: 7484546b144bbe34f2c511308d302ffc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SecondPlayerController
   platform: 5
   scenePathNames:
   - Assets/MainMenu/MainMenu.unity
   - Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
   - Assets/MainMenu/Lobby.unity
-  playerPath: C:/Users/zansb/Documents/CvestGameUnity.exe
+  playerPath: C:/Users/zansb/Desktop/CvestGameUnity.exe

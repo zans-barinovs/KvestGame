@@ -878,6 +878,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 173284793}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &254189255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 254189256}
+  m_Layer: 0
+  m_Name: SecondMainCharacterSpawnPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &254189256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254189255}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1832371, y: 6.0913258, z: 1.050731}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1016953318}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &292967338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2425,6 +2455,9 @@ MonoBehaviour:
   FirstMainCharacter: {fileID: 8872462076811691049, guid: a5bdca0a2315d43499be7dcef473fbc7,
     type: 3}
   FirstMainCharacterSpawnPoint: {fileID: 388218249}
+  SecondMainCharacter: {fileID: 8872462076811691049, guid: 04ac3ec559d0f4246932ee42d1989840,
+    type: 3}
+  SecondMainCharacterSpawnPoint: {fileID: 254189255}
 --- !u!1 &595978922
 GameObject:
   m_ObjectHideFlags: 0
@@ -3531,6 +3564,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 388218250}
+  - {fileID: 254189256}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

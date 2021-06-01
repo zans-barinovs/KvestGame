@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using Photon.Pun;
 
 public class CameraFollow : MonoBehaviour
 {
@@ -8,8 +9,13 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float movingSpeed = 1;
     [SerializeField] public GameObject player;
 
+    private PhotonView ComponentPhotonView;
+
     private void Awake()
     {
+        ComponentPhotonView = GameObject.FindWithTag("FirstMainCharacter").GetComponent<PhotonView>();
+
+        // if (!ComponentPhotonView.IsMine) return;
 
         this.transform.position = new Vector3()
         {
@@ -26,6 +32,8 @@ public class CameraFollow : MonoBehaviour
 
     private void Update()
     {
+        // if (!ComponentPhotonView.IsMine) return;
+
         if(this.playerTransform)
         {
             Vector3 target = new Vector3()

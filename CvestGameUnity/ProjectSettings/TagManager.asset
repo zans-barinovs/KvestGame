@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FirstMainCharacter
   - ClimbIntoVentiltionButton
+  - SecondMainCharacter
   layers:
   - Default
   - TransparentFX

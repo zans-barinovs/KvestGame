@@ -7,10 +7,32 @@ public class GameNetworkScript : MonoBehaviourPunCallbacks
 {
     public GameObject FirstMainCharacter;
     public GameObject FirstMainCharacterSpawnPoint;
+    private bool FirstMainCharacterExists = true;
+
+    public GameObject SecondMainCharacter;
+    public GameObject SecondMainCharacterSpawnPoint;
+
 
     private void Start() 
     {
-        PhotonNetwork.Instantiate(FirstMainCharacter.name, FirstMainCharacterSpawnPoint.transform.position, Quaternion.identity, 0); //видео 15:13 Указать название игрока и его координаты спауна для руна.
+        try
+        {
+            var test = GameObject.FindWithTag("FirstMainCharacter");
+        }
+        catch (System.Exception)
+        {
+            
+            FirstMainCharacterExists = false;
+        }
+
+        if (FirstMainCharacterExists)
+        {
+            PhotonNetwork.Instantiate(FirstMainCharacter.name, FirstMainCharacterSpawnPoint.transform.position, Quaternion.identity, 0);
+        }
+        else
+        {
+            PhotonNetwork.Instantiate(FirstMainCharacter.name, FirstMainCharacterSpawnPoint.transform.position, Quaternion.identity, 0);
+        }
     }
 
     public void LeaveRoom()

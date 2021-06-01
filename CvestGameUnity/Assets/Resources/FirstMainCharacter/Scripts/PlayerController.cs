@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 using UnityEditor;
 
  
@@ -50,10 +51,12 @@ public class PlayerController : MonoBehaviour
     public bool isFalling;
     public Vector3 velocity;
 
+    private PhotonView ComponentPhotonView;
+
     void Update()
     {
-        
-        if (/*!isLocalPlayer ||*/ !characterController.enabled)
+        ComponentPhotonView = GetComponent<PhotonView>();   
+        if (!ComponentPhotonView.IsMine || !characterController.enabled)
             return;
         
         horizontal = Input.GetAxis("Horizontal");
