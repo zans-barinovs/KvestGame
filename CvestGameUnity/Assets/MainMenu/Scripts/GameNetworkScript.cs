@@ -12,26 +12,39 @@ public class GameNetworkScript : MonoBehaviourPunCallbacks
     public GameObject SecondMainCharacter;
     public GameObject SecondMainCharacterSpawnPoint;
 
+    private int UpdateCounter = 0;
 
     private void Start() 
     {
-        try
-        {
-            var test = GameObject.FindWithTag("FirstMainCharacter");
-        }
-        catch (System.Exception)
-        {
-            
-            FirstMainCharacterExists = false;
-        }
+        
+    }
 
-        if (FirstMainCharacterExists)
+    private void Update() {
+        UpdateCounter++;
+        if (UpdateCounter == 1)
         {
-            PhotonNetwork.Instantiate(FirstMainCharacter.name, FirstMainCharacterSpawnPoint.transform.position, Quaternion.identity, 0);
-        }
-        else
-        {
-            PhotonNetwork.Instantiate(FirstMainCharacter.name, FirstMainCharacterSpawnPoint.transform.position, Quaternion.identity, 0);
+            try
+            {
+                Debug.Log("try find first char");
+                var test = GameObject.FindWithTag("FirstMainCharacter");
+                test.GetComponent<Transform>().position = FirstMainCharacterSpawnPoint.transform.position;
+            }
+            catch (System.Exception)
+            {
+                Debug.Log("catch error");
+                FirstMainCharacterExists = false;
+            }
+
+            if (!FirstMainCharacterExists)
+            {
+                Debug.Log("cpawn FirstMainChar");
+                PhotonNetwork.Instantiate(FirstMainCharacter.name, FirstMainCharacterSpawnPoint.transform.position, Quaternion.identity, 0);
+            }
+            else
+            {
+                Debug.Log("spawn SecondMainCharacter");
+                PhotonNetwork.Instantiate(SecondMainCharacter.name, SecondMainCharacterSpawnPoint.transform.position, Quaternion.identity, 0);
+            }
         }
     }
 
