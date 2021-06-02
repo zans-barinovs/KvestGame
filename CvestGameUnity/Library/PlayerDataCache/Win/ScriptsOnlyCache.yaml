@@ -39,15 +39,16 @@ ScriptsOnlyBuild:
     - Photon.Pun.PhotonTransformView
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
+    Unity.CollabProxy.Editor.dll:
+    - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
+    - Unity.Cloud.Collaborate.UserInterface.WindowCache
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -123,35 +124,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2402}
     - Class: 114
-      Script: {instanceID: 2578}
+      Script: {instanceID: 2522}
     - Class: 114
-      Script: {instanceID: 2606}
+      Script: {instanceID: 2582}
     - Class: 114
-      Script: {instanceID: 2920}
+      Script: {instanceID: 2610}
     - Class: 114
-      Script: {instanceID: 2934}
+      Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 3134}
+      Script: {instanceID: 2940}
     - Class: 114
-      Script: {instanceID: 3244}
+      Script: {instanceID: 2974}
     - Class: 114
-      Script: {instanceID: 3274}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3360}
+      Script: {instanceID: 3250}
     - Class: 114
-      Script: {instanceID: 3362}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3366}
     - Class: 114
-      Script: {instanceID: 3730}
+      Script: {instanceID: 3368}
     - Class: 114
-      Script: {instanceID: 3734}
+      Script: {instanceID: 3392}
     - Class: 114
-      Script: {instanceID: 34388}
+      Script: {instanceID: 3736}
     - Class: 114
-      Script: {instanceID: 34926}
+      Script: {instanceID: 3740}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -265,47 +266,47 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2382}
     - Class: 114
-      Script: {instanceID: 2494}
+      Script: {instanceID: 2496}
     - Class: 114
-      Script: {instanceID: 2502}
+      Script: {instanceID: 2504}
     - Class: 114
-      Script: {instanceID: 2534}
+      Script: {instanceID: 2522}
     - Class: 114
-      Script: {instanceID: 2578}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2604}
+      Script: {instanceID: 2582}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2608}
     - Class: 114
-      Script: {instanceID: 2818}
+      Script: {instanceID: 2762}
     - Class: 114
-      Script: {instanceID: 2920}
+      Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 2934}
+      Script: {instanceID: 2824}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 3134}
+      Script: {instanceID: 2940}
     - Class: 114
-      Script: {instanceID: 3362}
+      Script: {instanceID: 2974}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3368}
     - Class: 114
-      Script: {instanceID: 3582}
+      Script: {instanceID: 3392}
     - Class: 114
-      Script: {instanceID: 3730}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 3734}
+      Script: {instanceID: 3588}
     - Class: 114
-      Script: {instanceID: 3748}
+      Script: {instanceID: 3736}
     - Class: 114
-      Script: {instanceID: 4034}
+      Script: {instanceID: 3740}
     - Class: 114
-      Script: {instanceID: 34388}
+      Script: {instanceID: 3754}
     - Class: 114
-      Script: {instanceID: 34926}
+      Script: {instanceID: 4040}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -957,6 +958,12 @@ ScriptsOnlyBuild:
     className: FriendItem
   - hash:
       serializedVersion: 2
+      Hash: 80c499329c65e8a1cc409836a8e118ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SecondCharacterPlayerMovementController
+  - hash:
+      serializedVersion: 2
       Hash: f1d735cc1a21c3704ab52568f4fbfcf8
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -985,6 +992,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: PunPlayerScores
+  - hash:
+      serializedVersion: 2
+      Hash: 2f3d1d49351c956e7fcf4fdff420f31c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SecondPlayerController
   - hash:
       serializedVersion: 2
       Hash: 5ae36aa27e46b25633847fc7cb6b5c87
@@ -1017,7 +1030,7 @@ ScriptsOnlyBuild:
     className: LayoutElementMatchSize
   - hash:
       serializedVersion: 2
-      Hash: 7484546b144bbe34f2c511308d302ffc
+      Hash: 4616f1fbf1119a513ece0097a24daf46
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -1147,6 +1160,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.dll
     namespaceName: Photon.Pun
     className: PhotonHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 76519a266f7007a74f469c2634b08ce9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SecondCharacterCameraFollow
   - hash:
       serializedVersion: 2
       Hash: e90137b14c2644736d5abeafc2b26c9a
@@ -1795,24 +1814,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-Editor.dll
     namespaceName: 
     className: DynamicJoystickEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 76519a266f7007a74f469c2634b08ce9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SecondCharacterCameraFollow
-  - hash:
-      serializedVersion: 2
-      Hash: 80c499329c65e8a1cc409836a8e118ca
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SecondCharacterPlayerMovementController
-  - hash:
-      serializedVersion: 2
-      Hash: 7484546b144bbe34f2c511308d302ffc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SecondPlayerController
   platform: 5
   scenePathNames:
   - Assets/MainMenu/MainMenu.unity

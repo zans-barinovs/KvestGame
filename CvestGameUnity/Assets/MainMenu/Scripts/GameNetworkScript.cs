@@ -26,17 +26,11 @@ public class GameNetworkScript : MonoBehaviourPunCallbacks
 
     private void Update() {
         UpdateCounter++;
-        if (UpdateCounter == 1)
+        if (UpdateCounter == 2)
         {
-            try
+            if (GameObject.FindGameObjectWithTag("FirstMainCharacter") == null)
             {
-                Debug.Log("try find first char");
-                var test = GameObject.FindWithTag("FirstMainCharacter");
-                test.GetComponent<Transform>().position = FirstMainCharacterSpawnPoint.transform.position;
-            }
-            catch (System.Exception)
-            {
-                Debug.Log("catch error");
+                Debug.Log("FirstMainCharacter not exists");
                 FirstMainCharacterExists = false;
             }
 
@@ -61,15 +55,21 @@ public class GameNetworkScript : MonoBehaviourPunCallbacks
             }
         }
         Debug.Log("update");
-        try
-        {
-            FirstMainCharacterCamera = GameObject.FindGameObjectWithTag("FirstMainCharacterCamera").GetComponent<Camera>() as Camera;
-            SecondMainCharacterCamera = GameObject.FindGameObjectWithTag("SecondMainCharacterCamera").GetComponent<Camera>() as Camera;
 
-            FirstMainCharacterCamera.enabled = true;
-            SecondMainCharacterCamera.enabled = false;
+        if (SomeoneEnteredRoom && UpdateCounter == 100)
+        {
+            ChaingeCameraToFirst();
         }
-        catch (System.Exception) {}
+    }
+
+    private async void ChaingeCameraToFirst()
+    {
+        Debug.Log("SomeoneEnteredRoom && UpdateCounter == 60");
+        FirstMainCharacterCamera = GameObject.FindGameObjectWithTag("FirstMainCharacterCamera").GetComponent<Camera>() as Camera;
+        SecondMainCharacterCamera = GameObject.FindGameObjectWithTag("SecondMainCharacterCamera").GetComponent<Camera>() as Camera;
+
+        FirstMainCharacterCamera.enabled = true;
+        SecondMainCharacterCamera.enabled = false;
     }
 
     public void LeaveRoom()
@@ -89,6 +89,7 @@ public class GameNetworkScript : MonoBehaviourPunCallbacks
         Debug.LogFormat("Player {0} entered room", NewPlayer.NickName);
 
         SomeoneEnteredRoom = true;
+        UpdateCounter = 56;
     }
 
     public override void OnPlayerLeftRoom(Player LeftPlayer)

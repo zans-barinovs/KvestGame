@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 3175779197224890082}
   m_Layer: 8
   m_Name: SecondMainCharacter
-  m_TagString: FirstMainCharacter
+  m_TagString: SecondMainCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
