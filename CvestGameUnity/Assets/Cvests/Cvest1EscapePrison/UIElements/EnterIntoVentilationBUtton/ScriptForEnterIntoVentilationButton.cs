@@ -21,6 +21,8 @@ public class ScriptForEnterIntoVentilationButton : MonoBehaviour
     Ray RayFromMouse;
     RaycastHit RayFromMouseHitedObjects;
 
+    private Camera FirstMainCharacterCamera;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,7 +52,9 @@ public class ScriptForEnterIntoVentilationButton : MonoBehaviour
             ButtonPresed = true;
         }
 
-        RayFromMouse = Camera.main.ScreenPointToRay(Input.mousePosition);
+        FirstMainCharacterCamera = GameObject.FindGameObjectWithTag("FirstMainCharacterCamera").GetComponent<Camera>() as Camera;
+
+        RayFromMouse = FirstMainCharacterCamera.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(RayFromMouse, out RayFromMouseHitedObjects))
         {

@@ -26,7 +26,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3107367111686843390}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4c8f4c07e373874080984ab7056ea35, type: 3}
   m_Name: 
@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: 8993127209816276930}
+  FirstMainCharacterCamera: {fileID: 495804232532074960}
   moveSpeed: 2.7
   turnSensitivity: 5
   maxTurnSpeed: 150
@@ -259,7 +260,12 @@ PrefabInstance:
     - target: {fileID: 2293866607654844797, guid: 04e0b1f297d7aab47985c6c1803e6026,
         type: 3}
       propertyPath: m_Name
-      value: Main Camera
+      value: FirstMainCharacterCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2293866607654844797, guid: 04e0b1f297d7aab47985c6c1803e6026,
+        type: 3}
+      propertyPath: m_TagString
+      value: FirstMainCharacterCamera
       objectReference: {fileID: 0}
     - target: {fileID: 2293866607654844799, guid: 04e0b1f297d7aab47985c6c1803e6026,
         type: 3}
@@ -291,6 +297,12 @@ PrefabInstance:
 --- !u!4 &495804232532074967 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2293866607654844792, guid: 04e0b1f297d7aab47985c6c1803e6026,
+    type: 3}
+  m_PrefabInstance: {fileID: 1816077460829116591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &495804232532074960 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2293866607654844799, guid: 04e0b1f297d7aab47985c6c1803e6026,
     type: 3}
   m_PrefabInstance: {fileID: 1816077460829116591}
   m_PrefabAsset: {fileID: 0}

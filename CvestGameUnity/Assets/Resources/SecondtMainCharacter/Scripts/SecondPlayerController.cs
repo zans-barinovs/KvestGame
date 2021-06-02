@@ -12,6 +12,8 @@ using UnityEditor;
 public class SecondPlayerController : MonoBehaviour
 {
     public CharacterController characterController;
+
+    public Camera SecondMainCharacterCamera;
     
     void OnValidate()
     {
@@ -22,7 +24,7 @@ public class SecondPlayerController : MonoBehaviour
     void Start()
     {
         // characterController.enabled = isLocalPlayer;
-        Camera.main.transform.SetParent(null);
+        SecondMainCharacterCamera.transform.SetParent(null);
     }
 
     void OnDisable()
