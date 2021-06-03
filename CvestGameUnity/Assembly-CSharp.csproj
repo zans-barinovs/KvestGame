@@ -56,10 +56,13 @@
      <Compile Include="Assets\Resources\FirstMainCharacter\Joystick\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
      <Compile Include="Assets\Cvests\Cvest1EscapePrison\UIElements\OpenToiletCisternButton\ScriptForOpenToiletCisternButton.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
+     <Compile Include="Assets\Resources\SecondtMainCharacter\Joystick\SecondCharacterPlayerMovementController.cs" />
+     <Compile Include="Assets\Resources\SecondtMainCharacter\Scripts\SecondPlayerController.cs" />
      <Compile Include="Assets\Resources\FirstMainCharacter\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Cvests\Cvest1EscapePrison\Light\BiasSet.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
+     <Compile Include="Assets\Resources\SecondtMainCharacter\Camera\SecondCharacterCameraFollow.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
      <Compile Include="Assets\Resources\FirstMainCharacter\Scripts\Animation_Control.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
@@ -72,9 +75,6 @@
      <Compile Include="Assets\Resources\FirstMainCharacter\Joystick\Joystick Pack\Examples\JoystickSetterExample.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
      <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
-     <Compile Include="Assets\Resources\SecondtMainCharacter\Camera\SecondCharacterCameraFollow.cs" />
-     <Compile Include="Assets\Resources\SecondtMainCharacter\Joystick\SecondCharacterPlayerMovementController.cs" />
-     <Compile Include="Assets\Resources\SecondtMainCharacter\Scripts\SecondPlayerController.cs" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
      <None Include="Assets\Cvests\Cvest1EscapePrison\Toilet\ProgramFiles\empty.txt" />

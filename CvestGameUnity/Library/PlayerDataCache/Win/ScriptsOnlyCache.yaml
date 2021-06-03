@@ -17,6 +17,7 @@ ScriptsOnlyBuild:
     - ScriptForEnterIntoVentilationButton
     - ScriptForOpenToiletCisternButton
     - SecondCharacterCameraFollow
+    - SecondCharacterPlayerMovementController
     - SecondPlayerController
     - ToiletCoverOpenScript
     - VariableJoystick
@@ -32,6 +33,8 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
     PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PhotonTransformViewEditor
+    - Photon.Pun.PhotonViewInspector
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
@@ -123,6 +126,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2286}
     - Class: 114
       Script: {instanceID: 2402}
+    - Class: 114
+      Script: {instanceID: 2452}
     - Class: 114
       Script: {instanceID: 2522}
     - Class: 114
@@ -265,6 +270,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2286}
     - Class: 114
       Script: {instanceID: 2382}
+    - Class: 114
+      Script: {instanceID: 2452}
     - Class: 114
       Script: {instanceID: 2496}
     - Class: 114
@@ -1030,7 +1037,7 @@ ScriptsOnlyBuild:
     className: LayoutElementMatchSize
   - hash:
       serializedVersion: 2
-      Hash: 4616f1fbf1119a513ece0097a24daf46
+      Hash: 2360d77a491e5324c98494cab338f18b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
