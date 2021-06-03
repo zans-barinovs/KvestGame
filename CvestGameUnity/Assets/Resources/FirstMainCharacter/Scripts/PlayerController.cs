@@ -52,11 +52,16 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded = true;
     public bool isFalling;
     public Vector3 velocity;
+    private int UpdateCounter = 0; 
 
-    private PhotonView ComponentPhotonView;
+    public PhotonView ComponentPhotonView;
 
     void Update()
     {
+        UpdateCounter++;
+        if(UpdateCounter < 5) return;
+        if(!ComponentPhotonView.IsMine) return;
+
         ComponentPhotonView = GetComponent<PhotonView>();   
         if (!ComponentPhotonView.IsMine || !characterController.enabled)
             return;
@@ -85,8 +90,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (/*!isLocalPlayer || */characterController == null)
-            return;
+        if(UpdateCounter < 5 || !ComponentPhotonView.IsMine || characterController == null) return;
         
         transform.Rotate(0f, turn * Time.fixedDeltaTime, 0f);
         

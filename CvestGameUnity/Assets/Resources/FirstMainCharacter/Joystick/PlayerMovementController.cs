@@ -16,6 +16,8 @@ public class PlayerMovementController : MonoBehaviour
 
     private PhotonView ComponentPhotonView;
 
+    private int UpdateCounter = 0;
+
     private void Start()
     {
         playMov = GetComponent<CharacterController>();
@@ -45,6 +47,10 @@ public class PlayerMovementController : MonoBehaviour
     }
     public void FixedUpdate()
     {
+        UpdateCounter++;
+
+        if(UpdateCounter < 4 || !ComponentPhotonView.IsMine) return;
+
         float hoz = joystick.Horizontal;
         float ver = joystick.Vertical;
 
@@ -69,6 +75,8 @@ public class PlayerMovementController : MonoBehaviour
 
     void UpdateLookJoystick()
     {
+        if(!ComponentPhotonView.IsMine) return;
+
         float hoz = lookJoystick.Horizontal;
         float ver = lookJoystick.Vertical;
 

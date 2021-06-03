@@ -126,6 +126,7 @@ MonoBehaviour:
   isGrounded: 0
   isFalling: 0
   velocity: {x: 0, y: -0.2, z: 0}
+  ComponentPhotonView: {fileID: 1863887591869201212}
 --- !u!114 &1464107929639972150
 MonoBehaviour:
   m_ObjectHideFlags: 0
