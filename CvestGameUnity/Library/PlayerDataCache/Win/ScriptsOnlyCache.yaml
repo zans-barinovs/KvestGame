@@ -876,7 +876,7 @@ ScriptsOnlyBuild:
     className: PutItemIntoToiletScript
   - hash:
       serializedVersion: 2
-      Hash: 80c499329c65e8a1cc409836a8e118ca
+      Hash: 08d3534a71d01a9abf07824176d9ab38
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovementController
@@ -1728,7 +1728,7 @@ ScriptsOnlyBuild:
     className: PlayerNameInputField
   - hash:
       serializedVersion: 2
-      Hash: 3f2057a45f39deefe63395c3fd338c54
+      Hash: cf866e5a5e7e1cd475146724510b8185
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnterIntoVentilationScript
