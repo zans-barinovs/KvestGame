@@ -35,12 +35,14 @@ public class PlayerMovementController : MonoBehaviour
         
         if (hoz <= 0.7||hoz >= -0.7||ver >= -0.7||ver <= 0.7)
         {
+            Debug.Log("run fals; walk true");
             speed = 0.03f;
             player.GetComponent<Animator>().SetBool("IsWalking", true);
             player.GetComponent<Animator>().SetBool("IsRunning", false);
         }
         if (hoz == 0 && ver == 0)
         {
+            Debug.Log("run fals; walk false");
             player.GetComponent<Animator>().SetBool("IsWalking", false);
             player.GetComponent<Animator>().SetBool("IsRunning", false);
         }
@@ -64,6 +66,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             speed = 0.05f;
             player.GetComponent<Animator>().SetBool("IsRunning", true);
+            Debug.Log("run true");
         }
         else
         {

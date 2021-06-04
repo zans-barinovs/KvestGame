@@ -33,8 +33,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
     PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PhotonTransformViewEditor
-    - Photon.Pun.PhotonViewInspector
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
@@ -1826,4 +1824,4 @@ ScriptsOnlyBuild:
   - Assets/MainMenu/MainMenu.unity
   - Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
   - Assets/MainMenu/Lobby.unity
-  playerPath: C:/Users/zansb/Desktop/CvestGameUnity.exe
+  playerPath: C:/Users/zansb/Music/CvestGameUnity.exe
