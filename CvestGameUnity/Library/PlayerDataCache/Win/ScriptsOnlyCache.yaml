@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - CameraFollow
     - CharacterNearToiletScript
     - DynamicJoystick
+    - EnterIntoVentilationScript
     - FixedJoystick
     - FloatingJoystick
     - GameNetworkScript
@@ -311,7 +312,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3754}
     - Class: 114
-      Script: {instanceID: 4040}
+      Script: {instanceID: 3872}
+    - Class: 114
+      Script: {instanceID: 4042}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1725,6 +1728,12 @@ ScriptsOnlyBuild:
     className: PlayerNameInputField
   - hash:
       serializedVersion: 2
+      Hash: 3f2057a45f39deefe63395c3fd338c54
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnterIntoVentilationScript
+  - hash:
+      serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1824,4 +1833,4 @@ ScriptsOnlyBuild:
   - Assets/MainMenu/MainMenu.unity
   - Assets/Cvests/Cvest1EscapePrison/Cvest1EscapePrison.unity
   - Assets/MainMenu/Lobby.unity
-  playerPath: C:/Users/zansb/Music/CvestGameUnity.exe
+  playerPath: C:/Users/zansb/Desktop/CvestGameUnity.exe

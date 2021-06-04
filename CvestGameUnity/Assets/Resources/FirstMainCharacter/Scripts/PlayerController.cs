@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     {
         // characterController.enabled = isLocalPlayer;
         FirstMainCharacterCamera.transform.SetParent(null);
+        ScriptForEnterIntoVentilationButton.ClimbIntoVentiltionButtonOnClickEvent += WhenlimbIntoVentiltionButtonOnClickEvent;
     }
 
     void OnDisable()
@@ -55,12 +56,12 @@ public class PlayerController : MonoBehaviour
     private int UpdateCounter = 0; 
 
     public PhotonView ComponentPhotonView;
+    private float WalkingHeight = 0.0f;
 
     void Update()
     {
         UpdateCounter++;
-        if(UpdateCounter < 5) return;
-        if(!ComponentPhotonView.IsMine) return;
+        if(!ComponentPhotonView.IsMine || UpdateCounter < 5) return;
 
         ComponentPhotonView = GetComponent<PhotonView>();   
         if (!ComponentPhotonView.IsMine || !characterController.enabled)
@@ -94,7 +95,7 @@ public class PlayerController : MonoBehaviour
         
         transform.Rotate(0f, turn * Time.fixedDeltaTime, 0f);
         
-        Vector3 direction = new Vector3(horizontal, jumpSpeed, vertical);
+        Vector3 direction = new Vector3(horizontal, WalkingHeight, vertical);
         direction = Vector3.ClampMagnitude(direction, 1f);
         direction = transform.TransformDirection(direction);
         direction *= moveSpeed;
@@ -105,5 +106,10 @@ public class PlayerController : MonoBehaviour
 
         isGrounded = characterController.isGrounded;
         velocity = characterController.velocity;
+    }
+
+    private void WhenlimbIntoVentiltionButtonOnClickEvent() 
+    {
+        WalkingHeight = 2.4f;
     }
 }

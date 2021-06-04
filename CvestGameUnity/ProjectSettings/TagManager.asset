@@ -9,6 +9,8 @@ TagManager:
   - SecondMainCharacter
   - FirstMainCharacterCamera
   - SecondMainCharacterCamera
+  - Ventilation
+  - floor
   layers:
   - Default
   - TransparentFX

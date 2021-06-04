@@ -18,6 +18,10 @@ public class PlayerMovementController : MonoBehaviour
 
     private int UpdateCounter = 0;
 
+    private float WalkingHeight = 1.0f;
+    public Transform ThisObjectComponentTransform;
+
+
     private void Start()
     {
         playMov = GetComponent<CharacterController>();
@@ -25,24 +29,26 @@ public class PlayerMovementController : MonoBehaviour
 
         joystick = GameObject.Find("Fixed Joystick").GetComponent<Joystick>();
         lookJoystick = GameObject.Find("Fixed Joystick").GetComponent<Joystick>();
+
+        ScriptForEnterIntoVentilationButton.ClimbIntoVentiltionButtonOnClickEvent += WhenlimbIntoVentiltionButtonOnClickEvent;
     }
     public void Walk()
     {
-        if(!ComponentPhotonView.IsMine) return;
+        if(!ComponentPhotonView.IsMine ) return;
 
         float hoz = joystick.Horizontal;
         float ver = joystick.Vertical;
         
         if (hoz <= 0.7||hoz >= -0.7||ver >= -0.7||ver <= 0.7)
         {
-            Debug.Log("run fals; walk true");
+            // Debug.Log("run fals; walk true");
             speed = 0.03f;
             player.GetComponent<Animator>().SetBool("IsWalking", true);
             player.GetComponent<Animator>().SetBool("IsRunning", false);
         }
         if (hoz == 0 && ver == 0)
         {
-            Debug.Log("run fals; walk false");
+            // Debug.Log("run fals; walk false");
             player.GetComponent<Animator>().SetBool("IsWalking", false);
             player.GetComponent<Animator>().SetBool("IsRunning", false);
         }
@@ -66,7 +72,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             speed = 0.05f;
             player.GetComponent<Animator>().SetBool("IsRunning", true);
-            Debug.Log("run true");
+            // Debug.Log("run true");
         }
         else
         {
@@ -86,5 +92,12 @@ public class PlayerMovementController : MonoBehaviour
         Vector3 direction = new Vector3(hoz, 0, ver).normalized;
         Vector3 lookAtPosition = transform.position + direction;
         transform.LookAt(lookAtPosition);
+
+        ThisObjectComponentTransform.position = new Vector3(ThisObjectComponentTransform.position.x, WalkingHeight, ThisObjectComponentTransform.position.z);
+    }
+
+    private void WhenlimbIntoVentiltionButtonOnClickEvent() 
+    {
+        WalkingHeight = 2.35f;
     }
 }
