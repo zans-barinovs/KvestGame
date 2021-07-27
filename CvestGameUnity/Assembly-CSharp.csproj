@@ -57,6 +57,7 @@
      <Compile Include="Assets\MainMenu\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
      <Compile Include="Assets\Resources\SecondtMainCharacter\Joystick\SecondCharacterPlayerMovementController.cs" />
      <Compile Include="Assets\Resources\SecondtMainCharacter\Scripts\SecondPlayerController.cs" />
+     <Compile Include="Assets\Resources\FirstMainCharacter\Scripts\PlayerHangItemScript.cs" />
      <Compile Include="Assets\Resources\FirstMainCharacter\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Cvests\Cvest1EscapePrison\Light\BiasSet.cs" />
      <Compile Include="Assets\MainMenu\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
@@ -75,7 +76,6 @@
      <Compile Include="Assets\MainMenu\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
      <Compile Include="Assets\MainMenu\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
      <Compile Include="Assets\Resources\FirstMainCharacter\Scripts\EnterIntoVentilationScript.cs" />
-     <Compile Include="Assets\Resources\FirstMainCharacter\Scripts\PlayerHangItemScript.cs" />
      <None Include="Assets\MainMenu\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\MainMenu\Photon\PhotonUnityNetworking\changelog.txt" />
      <None Include="Assets\Cvests\Cvest1EscapePrison\Toilet\ProgramFiles\empty.txt" />

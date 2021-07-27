@@ -21,6 +21,8 @@ public class PutItemIntoToiletScript : MonoBehaviour
     Ray RayFromMouse;
     RaycastHit RayFromMouseHitedObjects;
 
+    private Camera FirstMainCharacterCamera;
+
     private bool CisternOpend;
 
     // Start is called before the first frame update
@@ -36,6 +38,8 @@ public class PutItemIntoToiletScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        FirstMainCharacterCamera = GameObject.Find("FirstMainCharacterCamera").GetComponent<Camera>();
+
         TimerForEventTime += Time.deltaTime;
         TimerForMaxPresedButtonTime += Time.deltaTime;
 
@@ -55,7 +59,7 @@ public class PutItemIntoToiletScript : MonoBehaviour
             ButtonPresed = true;
         }
 
-        RayFromMouse = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RayFromMouse = FirstMainCharacterCamera.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(RayFromMouse, out RayFromMouseHitedObjects))
         {

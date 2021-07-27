@@ -10,12 +10,15 @@ public class PlayerHangItemScript : MonoBehaviour
     private GameObject PlayersHand;
     private GameObject model;
 
-    public bool IsHangingItem = false;
+    private bool IsHangingItem = false;
 
     private void Start()
     {
-        PlayersHand = GameObject.FindWithTag("Hand");
-        model = GameObject.FindWithTag("FirstCharecterRun");
+        Debug.Log("OH no");
+        PlayersHand = GameObject.Find("Hand");
+        model = GameObject.Find("FirstCharecterRun");
+
+        GetItemFromToiletScript.GetItemFromToiletCistermnEvnet += WhenGetItemFromToiletCistermnEvnet;
     }
 
     public void Update()
@@ -24,29 +27,32 @@ public class PlayerHangItemScript : MonoBehaviour
         {
             if (HangingItemName == "Wrench")
             {
-                ItemToHang = GameObject.FindWithTag("wrench");
+                ItemToHang = GameObject.Find("wrench");
                 ItemToHang.transform.position = PlayersHand.transform.position;
-                ItemToHang.GetComponent<ObjectsRotation>().enabled = true;
+                ItemToHang.transform.rotation = PlayersHand.transform.rotation;
+                // ItemToHang.GetComponent<ObjectsRotation>().enabled = true;
                 model.GetComponent<Animator>().SetBool("IsHangingItem", true);
             }
         }
     }
 
-    public void Take()
-    {
-        IsHangingItem = true;
-    }
-
-    public void Put()
+    public void PutItem()
     {
         if (HangingItemName == "Wrench")
         {
             IsHangingItem = false;
             model.GetComponent<Animator>().SetBool("IsHangingItem", false);
-            ItemToHang.GetComponent<ObjectsRotation>().enabled = false;
+            // ItemToHang.GetComponent<ObjectsRotation>().enabled = false;
             ItemToHang.transform.position = new Vector3(1.45f, 0.8400002f, -0.45f);
             ItemToHang.transform.rotation = Quaternion.Euler(-66.23f, 7.913f, -97.786f);
             HangingItemName = "";
         }
+    }
+
+    public void WhenGetItemFromToiletCistermnEvnet()
+    {
+        Debug.Log("WhenGetItemFromToiletCistermnEvnet");
+        IsHangingItem = true;
+        HangingItemName = "Wrench";
     }
 }
