@@ -21,6 +21,9 @@ public class ScriptForOpenToiletCisternButton : MonoBehaviour
     Ray RayFromMouse;
     RaycastHit RayFromMouseHitedObjects;
 
+    private Camera FirstMainCharacterCamera;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,20 +49,22 @@ public class ScriptForOpenToiletCisternButton : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2))
         {
+            Debug.Log("also good");
             TimerForMaxPresedButtonTime = 0.0f;
             ButtonPresed = true;
         }
 
-        RayFromMouse = Camera.main.ScreenPointToRay(Input.mousePosition);
+        FirstMainCharacterCamera = GameObject.FindGameObjectWithTag("FirstMainCharacterCamera").GetComponent<Camera>() as Camera;
+
+        RayFromMouse = FirstMainCharacterCamera.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(RayFromMouse, out RayFromMouseHitedObjects))
         {
-            if (ButtonPresed && RayFromMouseHitedObjects.transform.position.ToString() == new Vector3(1.0f, 1.4f, -0.6f).ToString())
+            if (ButtonPresed && (RayFromMouseHitedObjects.transform.position.ToString() == new Vector3(1.0f, 1.4f, -0.6f).ToString()))
             {
+                Debug.Log("goood");
                 OpenToiletCisternButtonUnClickEvent?.Invoke();
                 Debug.Log("OpenToiletCisternButtonUnClickEventt");
-                //Hide button:
-                ThisObject.GetComponent<SpriteRenderer>().enabled = false;
             }
         }
 

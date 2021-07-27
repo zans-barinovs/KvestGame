@@ -9,7 +9,6 @@ public class PutItemIntoToiletScript : MonoBehaviour
 
 
     public GameObject ThisObject;
-    public GameObject player;
 
     private float WaitForEventTime = 0.1f;
     private float TimerForEventTime = 0.0f;
@@ -21,6 +20,8 @@ public class PutItemIntoToiletScript : MonoBehaviour
 
     Ray RayFromMouse;
     RaycastHit RayFromMouseHitedObjects;
+
+    private Camera FirstMainCharacterCamera;
 
     private bool CisternOpend;
 
@@ -37,6 +38,8 @@ public class PutItemIntoToiletScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        FirstMainCharacterCamera = GameObject.Find("FirstMainCharacterCamera").GetComponent<Camera>();
+
         TimerForEventTime += Time.deltaTime;
         TimerForMaxPresedButtonTime += Time.deltaTime;
 
@@ -56,7 +59,7 @@ public class PutItemIntoToiletScript : MonoBehaviour
             ButtonPresed = true;
         }
 
-        RayFromMouse = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RayFromMouse = FirstMainCharacterCamera.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(RayFromMouse, out RayFromMouseHitedObjects))
         {
@@ -64,9 +67,6 @@ public class PutItemIntoToiletScript : MonoBehaviour
             {
                 PutItemIntoToiletButtonEvent?.Invoke();
                 Debug.Log("PutItemIntoToiletButtonEvent");
-                //Put Item:
-                player = GameObject.Find("Player(Clone)");
-                player.GetComponent<TakeSomething>().Put();
             }
         }
 

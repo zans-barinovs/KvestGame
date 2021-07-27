@@ -6,6 +6,11 @@ TagManager:
   tags:
   - FirstMainCharacter
   - ClimbIntoVentiltionButton
+  - SecondMainCharacter
+  - FirstMainCharacterCamera
+  - SecondMainCharacterCamera
+  - Ventilation
+  - floor
   layers:
   - Default
   - TransparentFX

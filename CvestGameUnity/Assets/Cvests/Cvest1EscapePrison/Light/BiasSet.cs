@@ -11,11 +11,12 @@ public class BiasSet : MonoBehaviour
         ThisObjectBias = gameObject.GetComponent<Light>().shadowBias;
         ThisObjectBias = 1f;
         gameObject.GetComponent<Light>().shadowBias = -0.03f;
+        gameObject.GetComponent<Light>().shadowNearPlane = 0.1f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        // gameObject.GetComponent<Light>().shadowNearPlane = 0.1f;
     }
 }
